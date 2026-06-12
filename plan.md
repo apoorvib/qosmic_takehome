@@ -4,11 +4,28 @@ Living plan. We finalize one part at a time and append it here.
 
 ## Locked top-level decisions
 
-- **Runtime substrate:** Claude Code skills (YAML frontmatter + progressive-disclosure bodies) + a `CLAUDE.md` entry point. The agent *is* the audit agent; skills are the harness.
+- **Runtime substrate:** agent-readable skills/prompts with `AGENTS.md` as the primary entry point, plus `CLAUDE.md` as a Claude Code-specific adapter. The agent *is* the audit agent; skills are the harness.
 - **Crawl:** live browser via Playwright. MCP drives navigation/discovery/popup-dismissal; a deterministic `extract.py` does the structured DOM + screenshot + network capture.
 - **Time weighting:** thin runtime harness, deep eval loop. Part 2 (eval system + autonomy) is the headline and gets the marginal hour.
 - **Output contract (per README):** one report file with exactly — (1) executive summary prose, (2) 10 experiments spanning all 5 pillars, (3) competitor table (3–4), (4) ~15-row technical-checks table (Pass/Warn/Fail + one-line detail).
 - **Generalization is a hard requirement:** runs on `gingerpeople.com` (calibration) and `zenrojas.com` (unseen). No store-specific shortcuts.
+- **Markdown is presentation, JSON is authoritative:** evals grade the structured intermediates under `artifacts/<store>/reason/`; `sample_output/*.md` is the rendered deliverable, not the source of truth.
+
+### Agent-neutral harness entry points
+```
+AGENTS.md                    # primary instructions for any coding agent
+CLAUDE.md                    # Claude Code adapter; points to AGENTS.md + Claude-specific usage notes
+harness/
+  skills/
+    crawl-storefront.md
+    reason-audit.md
+    write-report.md
+    evaluate-audit.md
+  scripts/
+    extract.py
+    validate.py
+    score_report.py
+```
 
 ---
 
@@ -43,6 +60,23 @@ Shopify stores spawn cookie banners and email-capture modals on load.
 - Continue so downstream screenshots aren't poisoned by the overlay.
 
 ### `extract.py` responsibilities
+
+**MVP requirements (must ship):**
+- Navigate each selected URL with a realistic user agent and hard timeout.
+- Save one full-page screenshot plus one above-fold/hero screenshot per surface.
+- Extract title, meta description, canonical/OG tags where present, headings, links, buttons, form inputs, and bounded readable body text.
+- Classify basic surface type (`homepage`, `product`, `collection`, `cart`, `content`, `other`) from URL patterns and page signals.
+- Detect basic CRO signals: price, add-to-cart/buy button, reviews/ratings, primary CTA, search, promo/announcement bar.
+- Capture final URL, HTTP status, redirect chain, response statuses, rough navigation timing, and console errors.
+- Emit `manifest.json` and one `page.json` per crawled surface.
+
+**Stretch if time allows:**
+- First screenshot with popup present, followed by deterministic dismissal and clean downstream screenshots.
+- Higher-quality Readability-style content extraction.
+- Request transfer-size summaries and richer performance heuristics.
+- Detailed security-header extraction.
+- Advanced element prioritization/token budgeting beyond simple caps.
+
 - **Role-based DOM extraction (not a tag dump).** Flat list of interactive + proof elements, each with: role/tag, text/label/aria-label, `href`/`type`/`name`/`placeholder`, `isVisible`, bounding box, `aboveFold`. No raw divs (avoids crowding).
 - **Bounded main-content text (`content`).** Readability-style extraction of the *readable body* — product descriptions, use-case/category copy, meaningful paragraphs — cleaned and capped. NOT raw divs; the article/main text. This feeds the Phase-2 `store_profile` and is what makes recommendations product-specific instead of generic.
 - **Expected-CRO-element presence/absence check** (general across stores). For each surface type, explicitly mark present/absent: price, add-to-cart / buy button, reviews/ratings, trust badges, search, promo/announcement bar, primary CTA. **Recording absence is high-signal** — "no add-to-cart, no price, no next step" is exactly the leak the anchor's #1 experiment is built on.
@@ -164,6 +198,18 @@ The two "hard" pillars are data-backed, not vibes: **Performance maps to `networ
 
 Agent writes the ~15-row table itself, but **each row must cite the artifact field it rests on** (e.g. `/cart` Fail ← `network.responses[].status=404`; SSL Pass ← HTTPS load + `security_headers`). If no artifact field covers a check → honest **Warn "not inspected"** (anchor posture). LLM writes the prose; it cannot claim a Pass it can't point at. The eval's evidence-grounding check polices this.
 
+**Status truthfulness rule (mechanical):**
+- `Pass` requires a concrete artifact field proving the positive claim.
+- `Fail` requires a concrete artifact field proving the failure.
+- Missing, partial, or out-of-scope evidence must be `Warn`, with a detail like "not inspected in this crawl."
+
+Examples:
+- SSL Certificate `Pass` only if an HTTPS page loaded successfully.
+- Broken Links `Fail` only if captured response data shows 4xx/5xx for an inspected link/path.
+- Mobile-Friendly `Warn` in the desktop-only crawl.
+- Page Speed Mobile `Warn` unless a mobile Lighthouse or equivalent mobile run exists.
+- Structured Data status is based only on detected JSON-LD/schema fields in `meta`.
+
 ### Competitor analysis (locked: web research)
 
 Infer the store's niche from artifacts (what it sells, category language) → `WebSearch` for 3–4 real competitors → compare positioning / what they make easier / patterns to adapt. Web-grounded so it generalizes to unseen stores (zenrojas) rather than relying on stale model memory.
@@ -248,3 +294,83 @@ Goal: assemble the Phase-2 JSON intermediates into `report.md`, matching the anc
 - The anchor's experiment format is **literally labeled fields**, so the template maps 1:1 — no creative rendering needed beyond the exec summary.
 - Output format is `.md` (README allows `.md`/`.html`, styling irrelevant; `.md` is diff-able and matches the anchor). HTML is a trivial later swap.
 - Reproducibility caveat (accepted): because the exec summary is LLM-authored, Write is not bit-reproducible. Everything else (experiments/competitor/tech tables) is deterministic templating, so only ~3 paragraphs vary run-to-run.
+
+---
+
+## Phase 4 - Eval System (NEXT TO FINALIZE)
+
+Goal: score audit quality for unseen Shopify stores using the frozen artifact set and structured Reason JSON, then feed failures back into targeted agent revisions. This is the headline signal for the take-home: runtime produces artifacts; eval turns those artifacts into a quality loop.
+
+### Locked decisions
+- **Eval reads structured JSON first.** `sample_output/*.md` only needs to exist and render; eval does not parse markdown as the authority.
+- **One validator, two callers.** `harness/scripts/validate.py` is used as Write's pre-render gate and Eval's Layer-1 structural check.
+- **Frozen artifacts are the eval fixture.** Re-running a crawl is not part of scoring because live stores drift. Eval scores `artifacts/<store>/` as captured.
+- **Failures become revision prompts.** Eval output should identify the exact broken object path (`experiments[4].evidence.screenshot`, `tech_checks[8].grounded_in`) so the audit agent can repair only the failed section.
+
+### Eval components
+```
+harness/scripts/validate.py       # hard schema + structural gates
+harness/scripts/score_report.py   # rubric scoring over reason JSON + artifacts
+artifacts/<store>/eval/
+  eval_report.json                # machine-readable scores + failures
+  eval_summary.md                 # concise human-readable critique
+```
+
+### Layer 1: hard validation (`validate.py`)
+Fail the report before scoring if any hard contract is broken:
+- Exactly 10 experiments.
+- All 5 pillars represented at least once.
+- Every experiment has non-empty title, `exp_id`, pillar, affected surface, URL, evidence, hypothesis, primary change, primary KPI, decision rule, expected lift, and confidence.
+- Every `evidence.screenshot` path resolves to an existing screenshot file.
+- Every `evidence.triggering_signal` points to a known `page.json`, `visual_findings.json`, or `network` field.
+- Competitor table has 3-4 rows.
+- Technical checks table has about 15 rows and every row has `status`, `detail`, and `grounded_in`.
+
+### Layer 2: scored rubric (`score_report.py`)
+
+| Dimension | Weight | What it checks |
+|---|---:|---|
+| Structure compliance | 15 | Output matches README contract and fixed schemas. |
+| Evidence resolvability | 15 | Screenshot paths, URLs, surface IDs, and structured signals resolve. |
+| Evidence-claim coherence | 20 | Claim logically follows from cited `cro_signals`, `network`, or `visual` evidence. |
+| Pillar coverage | 10 | All pillars present; over-skew is allowed but gaps fail. |
+| Store specificity | 15 | Experiments name concrete products, use-cases, proof points, or content themes from `store_profile.json`. |
+| Technical truthfulness | 10 | `Pass`/`Fail` statuses are artifact-proven; unsupported checks are `Warn`. |
+| Competitor grounding | 5 | Competitors are real, relevant, and include source URLs. |
+| Report quality | 10 | Executive summary and experiment prose are coherent, decisive, and non-generic. |
+
+Acceptance target for sample outputs:
+- No Layer-1 failures.
+- Overall score >= 80.
+- No zero in evidence resolvability, technical truthfulness, or store specificity.
+
+### Mechanical checks worth implementing first
+- **Pillar coverage:** set comparison over `experiments[].pillar`.
+- **Evidence path exists:** filesystem check for `evidence.screenshot`.
+- **Signal path exists:** parse dotted paths like `pdp-gingins.cro_signals.add_to_cart.present`.
+- **Specificity overlap:** require each experiment to overlap with at least one `store_profile` family, product, job, segment, proof point, or content theme.
+- **Confidence coherence:** `confidence_basis` must match the confidence band: direct structural absence 80-88, strong inference 70-80, partial/best-practice 65-72.
+- **Tech status grounding:** `Pass`/`Fail` require `grounded_in` to resolve to an artifact field; unresolved or uninspected checks must be `Warn`.
+
+### LLM-judge checks (thin but valuable)
+Use an LLM judge only where mechanical checks cannot decide:
+- Does the cited evidence actually support the experiment's hypothesis?
+- Is the recommendation specific to this store rather than generic CRO advice?
+- Is the executive summary a faithful synthesis of the highest-ranked leaks?
+
+The judge should output JSON with `{score, rationale, failing_object_paths[]}` so its results can feed targeted repair prompts.
+
+### Autonomous self-learning loop (`EVAL_LOOP.md` source material)
+1. Run crawl + reason + write on a store.
+2. Run `validate.py`; if it fails, send the exact schema/evidence failures back to the agent and regenerate only the failed JSON section.
+3. Run `score_report.py`; if score is below threshold, create a targeted revision prompt grouped by failure type: grounding, specificity, pillar gap, tech truthfulness, or prose quality.
+4. Re-score after repair and keep both versions for comparison.
+5. Store human review labels only for disputed/high-impact cases: "valid insight", "unsupported", "generic", "wrong priority", "missed major leak."
+6. Use accumulated labels to tune weights, add deterministic checks for repeated judge failures, and refresh the leak-pattern playbook.
+
+One to three months out, the loop should need humans mainly for calibration and new failure modes. Repeated eval failures become deterministic validators or playbook updates, shrinking the surface where human judgment is needed.
+
+### Open / deferred
+- Exact rubric cutoffs after seeing first `gingerpeople.com` and `zenrojas.com` outputs.
+- Whether LLM judge runs once globally or per experiment; default should be per experiment for actionable failure paths.
+- Whether to persist eval history in flat JSON files or a small SQLite database. Flat JSON is enough for the take-home.
