@@ -1,0 +1,71 @@
+{
+  "url": "https://sample-ginger-co.example/blog/glp-1-ginger/",
+  "type": "content",
+  "status": 200,
+  "meta": {
+    "title": "content-glp1 | Sample Ginger Co",
+    "description": "Ginger candy and natural nausea relief.",
+    "og": {
+      "og:title": "Sample Ginger Co"
+    },
+    "viewport": "width=device-width, initial-scale=1",
+    "jsonld": []
+  },
+  "elements": [],
+  "cro_signals": {
+    "price": {
+      "present": false
+    },
+    "add_to_cart": {
+      "present": false
+    },
+    "reviews": {
+      "present": false
+    },
+    "trust_badges": {
+      "present": false
+    },
+    "search": {
+      "present": true
+    },
+    "promo_bar": {
+      "present": true
+    },
+    "primary_cta": {
+      "present": false
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h1",
+      "text": "content-glp1"
+    }
+  ],
+  "content": "Boost your GLP-1 naturally. Nausea affects up to 50% of patients on GLP-1 medications; ginger and turmeric formats can help. No reorderable routine offered.",
+  "screenshots": [
+    "content-glp1/screenshots/content-glp1-fullpage.png"
+  ],
+  "network": {
+    "nav_timing_ms": 1800,
+    "requests": 70,
+    "transfer_kb": 4200,
+    "redirects": [
+      {
+        "from": "http://sample-ginger-co.example/blog/glp-1-ginger/",
+        "to": "https://sample-ginger-co.example/blog/glp-1-ginger/",
+        "status": 301
+      }
+    ],
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'self'"
+    },
+    "responses": [
+      {
+        "url": "https://sample-ginger-co.example/blog/glp-1-ginger/",
+        "status": 200
+      }
+    ]
+  },
+  "console_errors": []
+}

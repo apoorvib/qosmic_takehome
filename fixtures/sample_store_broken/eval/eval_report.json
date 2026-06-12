@@ -1,0 +1,420 @@
+{
+  "store": "sample-ginger-co",
+  "store_root": "fixtures\\sample_store_broken",
+  "overall_score": 15,
+  "acceptance": {
+    "passes": false,
+    "threshold": 80,
+    "critical_dimensions": [
+      "evidence_resolvability",
+      "technical_truthfulness",
+      "store_specificity"
+    ]
+  },
+  "layer1": {
+    "ok": false,
+    "errors": [
+      {
+        "path": "experiments",
+        "code": "experiment_count",
+        "message": "9 experiments found; expected exactly 10",
+        "category": "contract"
+      },
+      {
+        "path": "experiments[*].pillar",
+        "code": "pillar_coverage",
+        "message": "Missing pillars: Performance",
+        "category": "contract"
+      },
+      {
+        "path": "experiments[0].evidence.screenshot",
+        "code": "missing_screenshot",
+        "message": "Screenshot does not exist: pdp-gingins/screenshots/MISSING.png",
+        "category": "evidence"
+      },
+      {
+        "path": "experiments[1].confidence",
+        "code": "confidence_band",
+        "message": "95 outside 80-88 for direct structural absence",
+        "category": "confidence"
+      },
+      {
+        "path": "experiments[2].evidence.store_profile_ref",
+        "code": "specificity_overlap",
+        "message": "No store_profile overlap for best-practice:urgency",
+        "category": "specificity"
+      },
+      {
+        "path": "experiments[3].evidence.triggering_signal",
+        "code": "unresolved_signal",
+        "message": "Signal does not resolve: visual_findings.vf-does-not-exist",
+        "category": "evidence"
+      },
+      {
+        "path": "tech_checks[2].grounded_in",
+        "code": "unresolved_grounding",
+        "message": "Pass without resolvable grounded_in: not inspected",
+        "category": "technical_truthfulness"
+      }
+    ]
+  },
+  "dimension_scores": {
+    "structure_compliance": {
+      "weight": 15,
+      "score": 0,
+      "failures": [
+        {
+          "path": "experiments",
+          "code": "experiment_count",
+          "message": "9 experiments found; expected exactly 10",
+          "category": "contract"
+        },
+        {
+          "path": "experiments[*].pillar",
+          "code": "pillar_coverage",
+          "message": "Missing pillars: Performance",
+          "category": "contract"
+        }
+      ]
+    },
+    "evidence_resolvability": {
+      "weight": 15,
+      "score": 0,
+      "failures": [
+        {
+          "path": "experiments[0].evidence.screenshot",
+          "code": "missing_screenshot",
+          "message": "Screenshot does not exist: pdp-gingins/screenshots/MISSING.png",
+          "category": "evidence"
+        },
+        {
+          "path": "experiments[3].evidence.triggering_signal",
+          "code": "unresolved_signal",
+          "message": "Signal does not resolve: visual_findings.vf-does-not-exist",
+          "category": "evidence"
+        }
+      ]
+    },
+    "evidence_claim_coherence": {
+      "weight": 20,
+      "score": 5,
+      "failures": [
+        {
+          "path": "experiments[1].confidence",
+          "code": "confidence_band",
+          "message": "95 outside 80-88 for direct structural absence",
+          "category": "confidence"
+        }
+      ]
+    },
+    "pillar_coverage": {
+      "weight": 10,
+      "score": 0,
+      "failures": [
+        {
+          "path": "experiments[*].pillar",
+          "code": "pillar_coverage",
+          "message": "Missing pillars: Performance",
+          "category": "contract"
+        }
+      ]
+    },
+    "store_specificity": {
+      "weight": 15,
+      "score": 0,
+      "failures": [
+        {
+          "path": "experiments[2].evidence.store_profile_ref",
+          "code": "specificity_overlap",
+          "message": "No store_profile overlap for best-practice:urgency",
+          "category": "specificity"
+        }
+      ]
+    },
+    "technical_truthfulness": {
+      "weight": 10,
+      "score": 0,
+      "failures": [
+        {
+          "path": "tech_checks[2].grounded_in",
+          "code": "unresolved_grounding",
+          "message": "Pass without resolvable grounded_in: not inspected",
+          "category": "technical_truthfulness"
+        }
+      ]
+    },
+    "competitor_grounding": {
+      "weight": 5,
+      "score": 5,
+      "failures": []
+    },
+    "report_quality": {
+      "weight": 10,
+      "score": 5,
+      "failures": []
+    }
+  },
+  "judge_tasks": [
+    {
+      "id": "judge-experiment-1",
+      "type": "experiment",
+      "object_path": "experiments[0]",
+      "exp_id": "exp-1a2b3c4d5e6f",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-gingins/screenshots/MISSING.png",
+          "triggering_signal": "pdp-gingins.cro_signals.add_to_cart.present=false",
+          "signal_type": "cro_signals",
+          "store_profile_ref": "family:GIN GINS; job:purchase-clarity"
+        },
+        "hypothesis": "Add a buying box to every product: this addresses a leak grounded in pdp-gingins.cro_signals.add_to_cart.present=false.",
+        "primary_change": "Add a buying box to every product"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-2",
+      "type": "experiment",
+      "object_path": "experiments[1]",
+      "exp_id": "exp-2b3c4d5e6f70",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "where-to-buy/screenshots/where-to-buy-fullpage.png",
+          "triggering_signal": "where-to-buy.cro_signals.primary_cta.present=false",
+          "signal_type": "cro_signals",
+          "store_profile_ref": "content_theme:where-to-buy; job:purchase-clarity"
+        },
+        "hypothesis": "Rebuild the Where To Buy page into a purchase handoff: this addresses a leak grounded in where-to-buy.cro_signals.primary_cta.present=false.",
+        "primary_change": "Rebuild the Where To Buy page into a purchase handoff"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-3",
+      "type": "experiment",
+      "object_path": "experiments[2]",
+      "exp_id": "exp-3c4d5e6f7081",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "home/screenshots/home-hero.png",
+          "triggering_signal": "visual_findings.vf-home-single-cta",
+          "signal_type": "visual",
+          "store_profile_ref": "best-practice:urgency"
+        },
+        "hypothesis": "Adding urgency increases conversions (generic CRO best practice).",
+        "primary_change": "Add countdown timers and low-stock banners across the site."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-4",
+      "type": "experiment",
+      "object_path": "experiments[3]",
+      "exp_id": "exp-4d5e6f708192",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "collection-candy/screenshots/collection-candy-fullpage.png",
+          "triggering_signal": "visual_findings.vf-does-not-exist",
+          "signal_type": "visual",
+          "store_profile_ref": "family:Ginger Rescue; job:travel/motion-sickness"
+        },
+        "hypothesis": "Sell a travel nausea kit from the Ginger Rescue formats: this addresses a leak grounded in visual_findings.vf-collection-no-bundle.",
+        "primary_change": "Sell a travel nausea kit from the Ginger Rescue formats"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-5",
+      "type": "experiment",
+      "object_path": "experiments[4]",
+      "exp_id": "exp-5e6f708192a3",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "collection-candy/screenshots/collection-candy-hero.png",
+          "triggering_signal": "visual_findings.vf-collection-no-sampler",
+          "signal_type": "visual",
+          "store_profile_ref": "family:GIN GINS; segment:candy-snacker"
+        },
+        "hypothesis": "Build a GIN GINS flavor sampler pack: this addresses a leak grounded in visual_findings.vf-collection-no-sampler.",
+        "primary_change": "Build a GIN GINS flavor sampler pack"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-6",
+      "type": "experiment",
+      "object_path": "experiments[5]",
+      "exp_id": "exp-6f708192a3b4",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "content-glp1/screenshots/content-glp1-fullpage.png",
+          "triggering_signal": "visual_findings.vf-glp1-no-routine",
+          "signal_type": "visual",
+          "store_profile_ref": "job:GLP-1 side-effects; content_theme:GLP-1"
+        },
+        "hypothesis": "Package a GLP-1 ginger + turmeric support routine: this addresses a leak grounded in visual_findings.vf-glp1-no-routine.",
+        "primary_change": "Package a GLP-1 ginger + turmeric support routine"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-7",
+      "type": "experiment",
+      "object_path": "experiments[6]",
+      "exp_id": "exp-708192a3b4c5",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-gingins/screenshots/pdp-gingins-fullpage.png",
+          "triggering_signal": "visual_findings.vf-pdp-no-reorder",
+          "signal_type": "visual",
+          "store_profile_ref": "segment:functional-relief; job:nausea"
+        },
+        "hypothesis": "Add subscribe-and-save reorder to consumable PDPs: this addresses a leak grounded in visual_findings.vf-pdp-no-reorder.",
+        "primary_change": "Add subscribe-and-save reorder to consumable PDPs"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-8",
+      "type": "experiment",
+      "object_path": "experiments[7]",
+      "exp_id": "exp-8192a3b4c5d6",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "home/screenshots/home-fullpage.png",
+          "triggering_signal": "visual_findings.vf-home-no-need-routing",
+          "signal_type": "visual",
+          "store_profile_ref": "job:nausea; job:travel/motion-sickness"
+        },
+        "hypothesis": "Create a Find-Your-Ginger need quiz: this addresses a leak grounded in visual_findings.vf-home-no-need-routing.",
+        "primary_change": "Create a Find-Your-Ginger need quiz"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-9",
+      "type": "experiment",
+      "object_path": "experiments[8]",
+      "exp_id": "exp-92a3b4c5d6e7",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "content-glp1/screenshots/content-glp1-fullpage.png",
+          "triggering_signal": "visual_findings.vf-content-health-pattern",
+          "signal_type": "visual",
+          "store_profile_ref": "job:morning sickness; content_theme:health education"
+        },
+        "hypothesis": "Create a morning-sickness ginger landing page: this addresses a leak grounded in visual_findings.vf-content-health-pattern.",
+        "primary_change": "Create a morning-sickness ginger landing page"
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-executive-summary",
+      "type": "executive_summary",
+      "object_path": "executive_summary",
+      "checks": [
+        "summary_faithful_to_synthesis_and_top_leaks"
+      ],
+      "input_refs": {
+        "headline": "Sample Ginger Co audit \u2014 the buy path is the constraint",
+        "themes": [
+          {
+            "title": "The purchase handoff is leaking demand",
+            "summary": "Strong product proof but no buying box on PDPs, an empty Where To Buy, and a /cart 404.",
+            "supporting_exp_ids": [
+              "exp-1a2b3c4d5e6f",
+              "exp-2b3c4d5e6f70",
+              "exp-a3b4c5d6e7f8"
+            ]
+          },
+          {
+            "title": "The content moat is under-commercialized",
+            "summary": "GLP-1 and health content can become reorderable routines and condition landing pages.",
+            "supporting_exp_ids": [
+              "exp-6f708192a3b4",
+              "exp-92a3b4c5d6e7",
+              "exp-8192a3b4c5d6"
+            ]
+          }
+        ]
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    }
+  ]
+}

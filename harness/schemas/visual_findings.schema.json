@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "visual_findings.schema.json",
+  "title": "Visual critique findings",
+  "description": "Located, evidence-bound aesthetic/hierarchy findings from the vision pass over saved screenshots. A finding can be an experiment's triggering_signal (signal_type=visual).",
+  "type": "object",
+  "required": ["findings"],
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "observation", "screenshot_ref", "region", "severity", "pillar"],
+        "properties": {
+          "id": { "type": "string", "description": "Stable id, e.g. 'vf1'. Referenced by triggering_signal." },
+          "observation": { "type": "string", "minLength": 1 },
+          "screenshot_ref": { "type": "string", "minLength": 1, "description": "Path to the screenshot the finding is grounded in." },
+          "region": { "type": "string", "description": "Where on the page, e.g. 'hero/above-fold'." },
+          "severity": { "type": "string", "enum": ["low", "medium", "high"] },
+          "pillar": { "type": "string", "enum": ["Conversion", "AOV", "Retention", "Acquisition", "Performance"] }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

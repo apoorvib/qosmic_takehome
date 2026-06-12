@@ -1,0 +1,58 @@
+{
+  "store": "sample-ginger-co",
+  "niche": "ginger functional foods + candy",
+  "commerce_model": "retailer-routed",
+  "families": [
+    {
+      "name": "GIN GINS",
+      "type": "candy",
+      "products": [
+        "Original",
+        "Mandarin Orange",
+        "Lemon"
+      ]
+    },
+    {
+      "name": "Ginger Rescue",
+      "type": "lozenges/tablets",
+      "products": [
+        "Extra Strength Lozenges",
+        "Chewable Tablets"
+      ]
+    },
+    {
+      "name": "Ginger Juice",
+      "type": "juice",
+      "products": [
+        "Original Juice",
+        "Turmeric Juice"
+      ]
+    }
+  ],
+  "jobs_to_be_done": [
+    "nausea",
+    "travel/motion-sickness",
+    "GLP-1 side-effects",
+    "morning sickness",
+    "cooking"
+  ],
+  "segments": [
+    "functional-relief",
+    "candy-snacker",
+    "cook",
+    "wholesale"
+  ],
+  "proof_points": [
+    "86 reviews",
+    "America's #1 selling ginger candy",
+    "10% fresh ginger",
+    "award-winning"
+  ],
+  "content_themes": [
+    "recipes",
+    "health education",
+    "GLP-1",
+    "where-to-buy"
+  ],
+  "brand_voice": "warm, health-forward family brand"
+}

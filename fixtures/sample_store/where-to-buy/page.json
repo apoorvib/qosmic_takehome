@@ -1,0 +1,71 @@
+{
+  "url": "https://sample-ginger-co.example/where-to-buy/",
+  "type": "content",
+  "status": 200,
+  "meta": {
+    "title": "where-to-buy | Sample Ginger Co",
+    "description": "Ginger candy and natural nausea relief.",
+    "og": {
+      "og:title": "Sample Ginger Co"
+    },
+    "viewport": "width=device-width, initial-scale=1",
+    "jsonld": []
+  },
+  "elements": [],
+  "cro_signals": {
+    "price": {
+      "present": false
+    },
+    "add_to_cart": {
+      "present": false
+    },
+    "reviews": {
+      "present": false
+    },
+    "trust_badges": {
+      "present": false
+    },
+    "search": {
+      "present": true
+    },
+    "promo_bar": {
+      "present": true
+    },
+    "primary_cta": {
+      "present": false
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h1",
+      "text": "where-to-buy"
+    }
+  ],
+  "content": "Where to buy: blog cards and footer links only. No store locator, no retailer list, no online buying cards.",
+  "screenshots": [
+    "where-to-buy/screenshots/where-to-buy-fullpage.png"
+  ],
+  "network": {
+    "nav_timing_ms": 1800,
+    "requests": 70,
+    "transfer_kb": 4200,
+    "redirects": [
+      {
+        "from": "http://sample-ginger-co.example/where-to-buy/",
+        "to": "https://sample-ginger-co.example/where-to-buy/",
+        "status": 301
+      }
+    ],
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'self'"
+    },
+    "responses": [
+      {
+        "url": "https://sample-ginger-co.example/where-to-buy/",
+        "status": 200
+      }
+    ]
+  },
+  "console_errors": []
+}

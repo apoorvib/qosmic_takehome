@@ -1,0 +1,73 @@
+{
+  "url": "https://sample-ginger-co.example/collections/candy/",
+  "type": "collection",
+  "status": 200,
+  "meta": {
+    "title": "collection-candy | Sample Ginger Co",
+    "description": "Ginger candy and natural nausea relief.",
+    "og": {
+      "og:title": "Sample Ginger Co"
+    },
+    "viewport": "width=device-width, initial-scale=1",
+    "jsonld": []
+  },
+  "elements": [],
+  "cro_signals": {
+    "price": {
+      "present": true
+    },
+    "add_to_cart": {
+      "present": false
+    },
+    "reviews": {
+      "present": false
+    },
+    "trust_badges": {
+      "present": false
+    },
+    "search": {
+      "present": true
+    },
+    "promo_bar": {
+      "present": true
+    },
+    "primary_cta": {
+      "present": true,
+      "text": "VIEW PRODUCT"
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h1",
+      "text": "collection-candy"
+    }
+  ],
+  "content": "GIN GINS candy: Original, Mandarin Orange, Lemon. Ginger Rescue lozenges and chewable tablets for travel and motion sickness. Nine flavors, no sampler.",
+  "screenshots": [
+    "collection-candy/screenshots/collection-candy-fullpage.png",
+    "collection-candy/screenshots/collection-candy-hero.png"
+  ],
+  "network": {
+    "nav_timing_ms": 1800,
+    "requests": 70,
+    "transfer_kb": 4200,
+    "redirects": [
+      {
+        "from": "http://sample-ginger-co.example/collections/candy/",
+        "to": "https://sample-ginger-co.example/collections/candy/",
+        "status": 301
+      }
+    ],
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'self'"
+    },
+    "responses": [
+      {
+        "url": "https://sample-ginger-co.example/collections/candy/",
+        "status": 200
+      }
+    ]
+  },
+  "console_errors": []
+}

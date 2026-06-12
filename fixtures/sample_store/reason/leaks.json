@@ -1,0 +1,94 @@
+{
+  "leaks": [
+    {
+      "id": "leak1",
+      "pillar": "Conversion",
+      "surface_id": "pdp-gingins",
+      "triggering_signal": "pdp-gingins.cro_signals.add_to_cart.present=false",
+      "signal_type": "cro_signals",
+      "severity": "high",
+      "description": "Add a buying box to every product"
+    },
+    {
+      "id": "leak2",
+      "pillar": "Conversion",
+      "surface_id": "where-to-buy",
+      "triggering_signal": "where-to-buy.cro_signals.primary_cta.present=false",
+      "signal_type": "cro_signals",
+      "severity": "high",
+      "description": "Rebuild the Where To Buy page into a purchase handoff"
+    },
+    {
+      "id": "leak3",
+      "pillar": "Conversion",
+      "surface_id": "home",
+      "triggering_signal": "visual_findings.vf-home-single-cta",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Turn the homepage into shopper-mission cards"
+    },
+    {
+      "id": "leak4",
+      "pillar": "AOV",
+      "surface_id": "collection-candy",
+      "triggering_signal": "visual_findings.vf-collection-no-bundle",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Sell a travel nausea kit from the Ginger Rescue formats"
+    },
+    {
+      "id": "leak5",
+      "pillar": "AOV",
+      "surface_id": "collection-candy",
+      "triggering_signal": "visual_findings.vf-collection-no-sampler",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Build a GIN GINS flavor sampler pack"
+    },
+    {
+      "id": "leak6",
+      "pillar": "Retention",
+      "surface_id": "content-glp1",
+      "triggering_signal": "visual_findings.vf-glp1-no-routine",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Package a GLP-1 ginger + turmeric support routine"
+    },
+    {
+      "id": "leak7",
+      "pillar": "Retention",
+      "surface_id": "pdp-gingins",
+      "triggering_signal": "visual_findings.vf-pdp-no-reorder",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Add subscribe-and-save reorder to consumable PDPs"
+    },
+    {
+      "id": "leak8",
+      "pillar": "Acquisition",
+      "surface_id": "home",
+      "triggering_signal": "visual_findings.vf-home-no-need-routing",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Create a Find-Your-Ginger need quiz"
+    },
+    {
+      "id": "leak9",
+      "pillar": "Acquisition",
+      "surface_id": "content-glp1",
+      "triggering_signal": "visual_findings.vf-content-health-pattern",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Create a morning-sickness ginger landing page"
+    },
+    {
+      "id": "leak10",
+      "pillar": "Performance",
+      "surface_id": "cart",
+      "triggering_signal": "cart.network.responses[].status=404",
+      "signal_type": "network",
+      "severity": "high",
+      "description": "Replace the /cart 404 with a purchase-recovery page"
+    }
+  ]
+}

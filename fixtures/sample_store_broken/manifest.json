@@ -1,0 +1,48 @@
+{
+  "store": "sample-ginger-co",
+  "crawled_at": "2026-06-12T00:00:00Z",
+  "surfaces": [
+    {
+      "id": "home",
+      "type": "homepage",
+      "url": "https://sample-ginger-co.example/",
+      "status": 200,
+      "page_json": "home/page.json"
+    },
+    {
+      "id": "pdp-gingins",
+      "type": "product",
+      "url": "https://sample-ginger-co.example/products/gin-gins-original/",
+      "status": 200,
+      "page_json": "pdp-gingins/page.json"
+    },
+    {
+      "id": "collection-candy",
+      "type": "collection",
+      "url": "https://sample-ginger-co.example/collections/candy/",
+      "status": 200,
+      "page_json": "collection-candy/page.json"
+    },
+    {
+      "id": "cart",
+      "type": "cart",
+      "url": "https://sample-ginger-co.example/cart",
+      "status": 404,
+      "page_json": "cart/page.json"
+    },
+    {
+      "id": "where-to-buy",
+      "type": "content",
+      "url": "https://sample-ginger-co.example/where-to-buy/",
+      "status": 200,
+      "page_json": "where-to-buy/page.json"
+    },
+    {
+      "id": "content-glp1",
+      "type": "content",
+      "url": "https://sample-ginger-co.example/blog/glp-1-ginger/",
+      "status": 200,
+      "page_json": "content-glp1/page.json"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "experiments": [
+    {
+      "exp_id": "exp-1a2b3c4d5e6f",
+      "title": "Add a buying box to every product",
+      "pillar": "Conversion",
+      "affected_surface": "pdp-gingins surface",
+      "url": "https://sample-ginger-co.example/products/gin-gins-original/",
+      "evidence": {
+        "screenshot": "pdp-gingins/screenshots/pdp-gingins-fullpage.png",
+        "triggering_signal": "pdp-gingins.cro_signals.add_to_cart.present=false",
+        "signal_type": "cro_signals",
+        "store_profile_ref": "family:GIN GINS; job:purchase-clarity"
+      },
+      "hypothesis": "Add a buying box to every product: this addresses a leak grounded in pdp-gingins.cro_signals.add_to_cart.present=false.",
+      "primary_change": "Add a buying box to every product",
+      "primary_kpi": "Outbound retailer click rate",
+      "decision_rule": "Ship if Outbound retailer click rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 12,
+        "high": 20,
+        "unit": "%"
+      },
+      "confidence": 82,
+      "confidence_basis": "direct structural absence"
+    },
+    {
+      "exp_id": "exp-2b3c4d5e6f70",
+      "title": "Rebuild the Where To Buy page into a purchase handoff",
+      "pillar": "Conversion",
+      "affected_surface": "where-to-buy surface",
+      "url": "https://sample-ginger-co.example/where-to-buy/",
+      "evidence": {
+        "screenshot": "where-to-buy/screenshots/where-to-buy-fullpage.png",
+        "triggering_signal": "where-to-buy.cro_signals.primary_cta.present=false",
+        "signal_type": "cro_signals",
+        "store_profile_ref": "content_theme:where-to-buy; job:purchase-clarity"
+      },
+      "hypothesis": "Rebuild the Where To Buy page into a purchase handoff: this addresses a leak grounded in where-to-buy.cro_signals.primary_cta.present=false.",
+      "primary_change": "Rebuild the Where To Buy page into a purchase handoff",
+      "primary_kpi": "Outbound retailer click rate",
+      "decision_rule": "Ship if Outbound retailer click rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 15,
+        "high": 25,
+        "unit": "%"
+      },
+      "confidence": 83,
+      "confidence_basis": "direct structural absence"
+    },
+    {
+      "exp_id": "exp-3c4d5e6f7081",
+      "title": "Turn the homepage into shopper-mission cards",
+      "pillar": "Conversion",
+      "affected_surface": "home surface",
+      "url": "https://sample-ginger-co.example/",
+      "evidence": {
+        "screenshot": "home/screenshots/home-hero.png",
+        "triggering_signal": "visual_findings.vf-home-single-cta",
+        "signal_type": "visual",
+        "store_profile_ref": "segment:candy-snacker; job:nausea"
+      },
+      "hypothesis": "Turn the homepage into shopper-mission cards: this addresses a leak grounded in visual_findings.vf-home-single-cta.",
+      "primary_change": "Turn the homepage into shopper-mission cards",
+      "primary_kpi": "Homepage click-through to category",
+      "decision_rule": "Ship if Homepage click-through to category improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 6,
+        "high": 10,
+        "unit": "%"
+      },
+      "confidence": 72,
+      "confidence_basis": "strong inference"
+    },
+    {
+      "exp_id": "exp-4d5e6f708192",
+      "title": "Sell a travel nausea kit from the Ginger Rescue formats",
+      "pillar": "AOV",
+      "affected_surface": "collection-candy surface",
+      "url": "https://sample-ginger-co.example/collections/candy/",
+      "evidence": {
+        "screenshot": "collection-candy/screenshots/collection-candy-fullpage.png",
+        "triggering_signal": "visual_findings.vf-collection-no-bundle",
+        "signal_type": "visual",
+        "store_profile_ref": "family:Ginger Rescue; job:travel/motion-sickness"
+      },
+      "hypothesis": "Sell a travel nausea kit from the Ginger Rescue formats: this addresses a leak grounded in visual_findings.vf-collection-no-bundle.",
+      "primary_change": "Sell a travel nausea kit from the Ginger Rescue formats",
+      "primary_kpi": "AOV among Ginger Rescue visitors",
+      "decision_rule": "Ship if AOV among Ginger Rescue visitors improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 8,
+        "high": 14,
+        "unit": "%"
+      },
+      "confidence": 72,
+      "confidence_basis": "strong inference"
+    },
+    {
+      "exp_id": "exp-5e6f708192a3",
+      "title": "Build a GIN GINS flavor sampler pack",
+      "pillar": "AOV",
+      "affected_surface": "collection-candy surface",
+      "url": "https://sample-ginger-co.example/collections/candy/",
+      "evidence": {
+        "screenshot": "collection-candy/screenshots/collection-candy-hero.png",
+        "triggering_signal": "visual_findings.vf-collection-no-sampler",
+        "signal_type": "visual",
+        "store_profile_ref": "family:GIN GINS; segment:candy-snacker"
+      },
+      "hypothesis": "Build a GIN GINS flavor sampler pack: this addresses a leak grounded in visual_findings.vf-collection-no-sampler.",
+      "primary_change": "Build a GIN GINS flavor sampler pack",
+      "primary_kpi": "AOV (first-time candy shoppers)",
+      "decision_rule": "Ship if AOV (first-time candy shoppers) improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 7,
+        "high": 12,
+        "unit": "%"
+      },
+      "confidence": 71,
+      "confidence_basis": "strong inference"
+    },
+    {
+      "exp_id": "exp-6f708192a3b4",
+      "title": "Package a GLP-1 ginger + turmeric support routine",
+      "pillar": "Retention",
+      "affected_surface": "content-glp1 surface",
+      "url": "https://sample-ginger-co.example/blog/glp-1-ginger/",
+      "evidence": {
+        "screenshot": "content-glp1/screenshots/content-glp1-fullpage.png",
+        "triggering_signal": "visual_findings.vf-glp1-no-routine",
+        "signal_type": "visual",
+        "store_profile_ref": "job:GLP-1 side-effects; content_theme:GLP-1"
+      },
+      "hypothesis": "Package a GLP-1 ginger + turmeric support routine: this addresses a leak grounded in visual_findings.vf-glp1-no-routine.",
+      "primary_change": "Package a GLP-1 ginger + turmeric support routine",
+      "primary_kpi": "30-day repeat purchase rate (GLP-1 visitors)",
+      "decision_rule": "Ship if 30-day repeat purchase rate (GLP-1 visitors) improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 6,
+        "high": 12,
+        "unit": "%"
+      },
+      "confidence": 68,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-708192a3b4c5",
+      "title": "Add subscribe-and-save reorder to consumable PDPs",
+      "pillar": "Retention",
+      "affected_surface": "pdp-gingins surface",
+      "url": "https://sample-ginger-co.example/products/gin-gins-original/",
+      "evidence": {
+        "screenshot": "pdp-gingins/screenshots/pdp-gingins-fullpage.png",
+        "triggering_signal": "visual_findings.vf-pdp-no-reorder",
+        "signal_type": "visual",
+        "store_profile_ref": "segment:functional-relief; job:nausea"
+      },
+      "hypothesis": "Add subscribe-and-save reorder to consumable PDPs: this addresses a leak grounded in visual_findings.vf-pdp-no-reorder.",
+      "primary_change": "Add subscribe-and-save reorder to consumable PDPs",
+      "primary_kpi": "Repeat purchase rate (PDP buyers)",
+      "decision_rule": "Ship if Repeat purchase rate (PDP buyers) improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 5,
+        "high": 10,
+        "unit": "%"
+      },
+      "confidence": 70,
+      "confidence_basis": "strong inference"
+    },
+    {
+      "exp_id": "exp-8192a3b4c5d6",
+      "title": "Create a Find-Your-Ginger need quiz",
+      "pillar": "Acquisition",
+      "affected_surface": "home surface",
+      "url": "https://sample-ginger-co.example/",
+      "evidence": {
+        "screenshot": "home/screenshots/home-fullpage.png",
+        "triggering_signal": "visual_findings.vf-home-no-need-routing",
+        "signal_type": "visual",
+        "store_profile_ref": "job:nausea; job:travel/motion-sickness"
+      },
+      "hypothesis": "Create a Find-Your-Ginger need quiz: this addresses a leak grounded in visual_findings.vf-home-no-need-routing.",
+      "primary_change": "Create a Find-Your-Ginger need quiz",
+      "primary_kpi": "Landing-page conversion rate",
+      "decision_rule": "Ship if Landing-page conversion rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 10,
+        "high": 18,
+        "unit": "%"
+      },
+      "confidence": 72,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-92a3b4c5d6e7",
+      "title": "Create a morning-sickness ginger landing page",
+      "pillar": "Acquisition",
+      "affected_surface": "content-glp1 surface",
+      "url": "https://sample-ginger-co.example/blog/glp-1-ginger/",
+      "evidence": {
+        "screenshot": "content-glp1/screenshots/content-glp1-fullpage.png",
+        "triggering_signal": "visual_findings.vf-content-health-pattern",
+        "signal_type": "visual",
+        "store_profile_ref": "job:morning sickness; content_theme:health education"
+      },
+      "hypothesis": "Create a morning-sickness ginger landing page: this addresses a leak grounded in visual_findings.vf-content-health-pattern.",
+      "primary_change": "Create a morning-sickness ginger landing page",
+      "primary_kpi": "Landing-page conversion rate",
+      "decision_rule": "Ship if Landing-page conversion rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 10,
+        "high": 16,
+        "unit": "%"
+      },
+      "confidence": 70,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-a3b4c5d6e7f8",
+      "title": "Replace the /cart 404 with a purchase-recovery page",
+      "pillar": "Performance",
+      "affected_surface": "cart surface",
+      "url": "https://sample-ginger-co.example/cart",
+      "evidence": {
+        "screenshot": "cart/screenshots/cart-fullpage.png",
+        "triggering_signal": "cart.network.responses[].status=404",
+        "signal_type": "network",
+        "store_profile_ref": "segment:functional-relief; job:purchase-clarity"
+      },
+      "hypothesis": "Replace the /cart 404 with a purchase-recovery page: this addresses a leak grounded in cart.network.responses[].status=404.",
+      "primary_change": "Replace the /cart 404 with a purchase-recovery page",
+      "primary_kpi": "/cart exit rate",
+      "decision_rule": "Ship if /cart exit rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 10,
+        "high": 20,
+        "unit": "%"
+      },
+      "confidence": 85,
+      "confidence_basis": "direct structural absence"
+    }
+  ]
+}

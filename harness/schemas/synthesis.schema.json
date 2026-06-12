@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "synthesis.schema.json",
+  "title": "Synthesis (exec-summary source)",
+  "description": "Top themes + supporting experiment ids. NO prose field — the executive summary is authored in the Write phase, not here. The summary-level judge checks that the Write-authored exec summary is faithful to these themes.",
+  "type": "object",
+  "required": ["headline", "themes"],
+  "properties": {
+    "headline": { "type": "string", "minLength": 1 },
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["title", "summary", "supporting_exp_ids"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string", "minLength": 1 },
+          "supporting_exp_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "pattern": "^exp-[0-9a-f]{12}$" }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

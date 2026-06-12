@@ -1,0 +1,76 @@
+{
+  "url": "https://sample-ginger-co.example/",
+  "type": "homepage",
+  "status": 200,
+  "meta": {
+    "title": "home | Sample Ginger Co",
+    "description": "Ginger candy and natural nausea relief.",
+    "og": {
+      "og:title": "Sample Ginger Co"
+    },
+    "viewport": "width=device-width, initial-scale=1",
+    "jsonld": []
+  },
+  "elements": [],
+  "cro_signals": {
+    "price": {
+      "present": false
+    },
+    "add_to_cart": {
+      "present": false
+    },
+    "reviews": {
+      "present": false
+    },
+    "trust_badges": {
+      "present": true,
+      "items": [
+        "America's #1 selling ginger candy"
+      ]
+    },
+    "search": {
+      "present": true
+    },
+    "promo_bar": {
+      "present": true
+    },
+    "primary_cta": {
+      "present": true,
+      "text": "SHOP NOW"
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h1",
+      "text": "home"
+    }
+  ],
+  "content": "Sample Ginger Co — ginger candy, lozenges and juice. Settle your stomach, calm motion sickness, cook with real ginger. America's #1 selling ginger candy.",
+  "screenshots": [
+    "home/screenshots/home-fullpage.png",
+    "home/screenshots/home-hero.png"
+  ],
+  "network": {
+    "nav_timing_ms": 1800,
+    "requests": 70,
+    "transfer_kb": 4200,
+    "redirects": [
+      {
+        "from": "http://sample-ginger-co.example/",
+        "to": "https://sample-ginger-co.example/",
+        "status": 301
+      }
+    ],
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'self'"
+    },
+    "responses": [
+      {
+        "url": "https://sample-ginger-co.example/",
+        "status": 200
+      }
+    ]
+  },
+  "console_errors": []
+}

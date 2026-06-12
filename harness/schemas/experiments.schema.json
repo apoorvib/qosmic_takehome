@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "experiments.schema.json",
+  "title": "Proposed experiments",
+  "description": "The canonical experiment set. NOTE: this schema validates the SHAPE of each experiment. Audit-contract rules (exactly 10, all 5 pillars present, cross-file evidence resolvability) are enforced by validate.py, not here, so the broken fixture's 9-experiment case fails at the Layer-1 gate with a clean message rather than at schema load.",
+  "type": "object",
+  "required": ["experiments"],
+  "properties": {
+    "experiments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "exp_id", "title", "pillar", "affected_surface", "url",
+          "evidence", "hypothesis", "primary_change", "primary_kpi",
+          "decision_rule", "expected_lift", "confidence", "confidence_basis"
+        ],
+        "properties": {
+          "exp_id": { "type": "string", "pattern": "^exp-[0-9a-f]{12}$", "description": "'exp-' + first 12 hex of hash(store+title+surface)." },
+          "title": { "type": "string", "minLength": 1 },
+          "pillar": { "type": "string", "enum": ["Conversion", "AOV", "Retention", "Acquisition", "Performance"] },
+          "affected_surface": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "minLength": 1 },
+          "evidence": {
+            "type": "object",
+            "required": ["screenshot", "triggering_signal", "signal_type", "store_profile_ref"],
+            "properties": {
+              "screenshot": { "type": "string", "minLength": 1, "description": "Path to a captured screenshot; must resolve to a real file (validate.py)." },
+              "triggering_signal": { "type": "string", "minLength": 1, "description": "Dotted path into page.json / visual_findings, e.g. 'pdp-gingins.cro_signals.add_to_cart.present=false'." },
+              "signal_type": { "type": "string", "enum": ["cro_signals", "network", "visual"] },
+              "store_profile_ref": { "type": "string", "minLength": 1, "description": "Specificity binding into store_profile, e.g. 'family:GIN GINS; job:purchase-clarity'." }
+            },
+            "additionalProperties": true
+          },
+          "hypothesis": { "type": "string", "minLength": 1 },
+          "primary_change": { "type": "string", "minLength": 1 },
+          "primary_kpi": { "type": "string", "minLength": 1 },
+          "decision_rule": { "type": "string", "minLength": 1 },
+          "expected_lift": {
+            "type": "object",
+            "required": ["low", "high", "unit"],
+            "properties": {
+              "low": { "type": "number" },
+              "high": { "type": "number" },
+              "unit": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "confidence": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "confidence_basis": { "type": "string", "minLength": 1, "description": "Ties to the derivation rubric for the confidence-coherence check." }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

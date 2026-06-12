@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "competitors.schema.json",
+  "title": "Competitor analysis",
+  "description": "Web-researched competitor set. source_url per row keeps the table grounded. The 3-4 row count is enforced by validate.py, not this schema.",
+  "type": "object",
+  "required": ["niche", "competitors"],
+  "properties": {
+    "niche": { "type": "string" },
+    "competitors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "domain", "positioning", "makes_easier", "our_edge", "pattern_to_adapt", "source_url"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "domain": { "type": "string", "minLength": 1 },
+          "positioning": { "type": "string", "minLength": 1 },
+          "makes_easier": { "type": "string", "minLength": 1 },
+          "our_edge": { "type": "string", "minLength": 1 },
+          "pattern_to_adapt": { "type": "string", "minLength": 1 },
+          "source_url": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,71 @@
+{
+  "url": "https://sample-ginger-co.example/cart",
+  "type": "cart",
+  "status": 404,
+  "meta": {
+    "title": "cart | Sample Ginger Co",
+    "description": "Ginger candy and natural nausea relief.",
+    "og": {
+      "og:title": "Sample Ginger Co"
+    },
+    "viewport": "width=device-width, initial-scale=1",
+    "jsonld": []
+  },
+  "elements": [],
+  "cro_signals": {
+    "price": {
+      "present": false
+    },
+    "add_to_cart": {
+      "present": false
+    },
+    "reviews": {
+      "present": false
+    },
+    "trust_badges": {
+      "present": false
+    },
+    "search": {
+      "present": false
+    },
+    "promo_bar": {
+      "present": false
+    },
+    "primary_cta": {
+      "present": false
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h1",
+      "text": "cart"
+    }
+  ],
+  "content": "Page not found.",
+  "screenshots": [
+    "cart/screenshots/cart-fullpage.png"
+  ],
+  "network": {
+    "nav_timing_ms": 1800,
+    "requests": 70,
+    "transfer_kb": 4200,
+    "redirects": [
+      {
+        "from": "http://sample-ginger-co.example/cart",
+        "to": "https://sample-ginger-co.example/cart",
+        "status": 301
+      }
+    ],
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'self'"
+    },
+    "responses": [
+      {
+        "url": "https://sample-ginger-co.example/cart",
+        "status": 404
+      }
+    ]
+  },
+  "console_errors": []
+}

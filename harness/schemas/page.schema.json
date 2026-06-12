@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "page.schema.json",
+  "title": "Per-surface page record",
+  "description": "One captured surface. Produced by extract.py. cro_signals and network are the highest-weight fields for Reason; triggering_signal dotted paths resolve into this object.",
+  "type": "object",
+  "required": ["url", "type", "status", "cro_signals", "screenshots", "network"],
+  "properties": {
+    "url": { "type": "string", "description": "Final URL after redirects." },
+    "type": { "type": "string", "enum": ["homepage", "product", "collection", "cart", "content", "other"] },
+    "status": { "type": "integer" },
+    "title": { "type": "string" },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "og": { "type": "object", "additionalProperties": true },
+        "viewport": { "type": "string" },
+        "jsonld": { "type": "array", "items": { "type": "object", "additionalProperties": true } }
+      },
+      "additionalProperties": true
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "visible", "aboveFold"],
+        "properties": {
+          "role": { "type": "string" },
+          "text": { "type": "string" },
+          "href": { "type": "string" },
+          "type": { "type": "string" },
+          "name": { "type": "string" },
+          "placeholder": { "type": "string" },
+          "visible": { "type": "boolean" },
+          "aboveFold": { "type": "boolean" },
+          "bbox": { "type": "array", "items": { "type": "number" } }
+        },
+        "additionalProperties": true
+      }
+    },
+    "cro_signals": {
+      "type": "object",
+      "description": "Expected CRO elements with explicit present/absent. Keys must exist so dotted-path resolution (e.g. cro_signals.add_to_cart.present) always works.",
+      "required": ["price", "add_to_cart", "reviews", "trust_badges", "search", "promo_bar", "primary_cta"],
+      "properties": {
+        "price": { "$ref": "#/$defs/signal" },
+        "add_to_cart": { "$ref": "#/$defs/signal" },
+        "reviews": { "$ref": "#/$defs/signal" },
+        "trust_badges": { "$ref": "#/$defs/signal" },
+        "search": { "$ref": "#/$defs/signal" },
+        "promo_bar": { "$ref": "#/$defs/signal" },
+        "primary_cta": { "$ref": "#/$defs/signal" }
+      },
+      "additionalProperties": { "$ref": "#/$defs/signal" }
+    },
+    "text_blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "text"],
+        "properties": { "role": { "type": "string" }, "text": { "type": "string" } },
+        "additionalProperties": true
+      }
+    },
+    "content": { "type": "string", "description": "Bounded readable body text (readability-style). Feeds store_profile + specificity." },
+    "screenshots": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "network": {
+      "type": "object",
+      "required": ["responses"],
+      "properties": {
+        "nav_timing_ms": { "type": "number" },
+        "requests": { "type": "integer" },
+        "transfer_kb": { "type": "number" },
+        "redirects": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+        "security_headers": { "type": "object", "additionalProperties": true },
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["url", "status"],
+            "properties": { "url": { "type": "string" }, "status": { "type": "integer" } },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "console_errors": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "signal": {
+      "type": "object",
+      "required": ["present"],
+      "properties": {
+        "present": { "type": "boolean" },
+        "value": { "type": "string" },
+        "text": { "type": "string" },
+        "items": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    }
+  }
+}

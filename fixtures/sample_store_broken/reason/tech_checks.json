@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "name": "SSL Certificate",
+      "status": "Pass",
+      "detail": "HTTPS storefront loaded.",
+      "grounded_in": "home.network.security_headers"
+    },
+    {
+      "name": "HTTPS Redirect",
+      "status": "Pass",
+      "detail": "HTTP redirected to HTTPS (301).",
+      "grounded_in": "home.network.redirects"
+    },
+    {
+      "name": "Sitemap",
+      "status": "Pass",
+      "detail": "Sitemap present.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Robots.txt",
+      "status": "Warn",
+      "detail": "Not inspected in this crawl.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Critical Pages Loading",
+      "status": "Warn",
+      "detail": "Home/collection 200; /cart 404.",
+      "grounded_in": "cart.network.responses[].status=404"
+    },
+    {
+      "name": "Meta Tags & Social Previews",
+      "status": "Pass",
+      "detail": "Title and description present.",
+      "grounded_in": "home.meta.title"
+    },
+    {
+      "name": "Structured Data",
+      "status": "Warn",
+      "detail": "No JSON-LD detected.",
+      "grounded_in": "home.meta.jsonld (empty)"
+    },
+    {
+      "name": "Favicon",
+      "status": "Warn",
+      "detail": "Not evaluated from captured evidence.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Mobile-Friendly",
+      "status": "Warn",
+      "detail": "Desktop-only crawl.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Page Speed Mobile",
+      "status": "Warn",
+      "detail": "No mobile speed run performed.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Page Speed Desktop",
+      "status": "Warn",
+      "detail": "No Lighthouse run; nav timing only.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Broken Links",
+      "status": "Fail",
+      "detail": "/cart returned 404.",
+      "grounded_in": "cart.network.responses[].status=404"
+    },
+    {
+      "name": "Image Optimization",
+      "status": "Warn",
+      "detail": "Not measured.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Cookie/Privacy",
+      "status": "Warn",
+      "detail": "Privacy link in footer; consent not inspected.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Checkout Reachable",
+      "status": "Fail",
+      "detail": "/cart unreachable (404); no checkout entered.",
+      "grounded_in": "cart.network.responses[].status=404"
+    }
+  ]
+}

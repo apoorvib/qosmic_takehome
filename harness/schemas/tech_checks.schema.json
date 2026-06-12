@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tech_checks.schema.json",
+  "title": "Technical checks",
+  "description": "~15 standard storefront checks. grounded_in enforces the no-fabricated-Pass rule. The ~15 row count is enforced by validate.py. Truthfulness rule (Pass/Fail must be artifact-proven; else Warn) is scored by validate.py + the judge.",
+  "type": "object",
+  "required": ["checks"],
+  "properties": {
+    "checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "status", "detail", "grounded_in"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "status": { "type": "string", "enum": ["Pass", "Warn", "Fail"] },
+          "detail": { "type": "string", "minLength": 1 },
+          "grounded_in": { "type": "string", "description": "Artifact field the status rests on, or an explicit 'not inspected' note for Warn." }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

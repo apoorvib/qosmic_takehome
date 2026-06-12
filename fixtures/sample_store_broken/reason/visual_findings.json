@@ -1,0 +1,60 @@
+{
+  "findings": [
+    {
+      "id": "vf-home-single-cta",
+      "observation": "Single broad 'SHOP NOW' CTA above the fold; no mission routing for distinct buyer needs.",
+      "screenshot_ref": "home/screenshots/home-hero.png",
+      "region": "hero/above-fold",
+      "severity": "medium",
+      "pillar": "Conversion"
+    },
+    {
+      "id": "vf-home-no-need-routing",
+      "observation": "Need language (nausea, travel, cooking) absent from hero; visitors not routed by job-to-be-done.",
+      "screenshot_ref": "home/screenshots/home-fullpage.png",
+      "region": "hero",
+      "severity": "medium",
+      "pillar": "Acquisition"
+    },
+    {
+      "id": "vf-collection-no-bundle",
+      "observation": "Ginger Rescue formats shown as separate tiles; no travel/kit bundle entry point.",
+      "screenshot_ref": "collection-candy/screenshots/collection-candy-fullpage.png",
+      "region": "grid",
+      "severity": "medium",
+      "pillar": "AOV"
+    },
+    {
+      "id": "vf-collection-no-sampler",
+      "observation": "Nine GIN GINS flavors listed with no multi-flavor sampler/trial option.",
+      "screenshot_ref": "collection-candy/screenshots/collection-candy-hero.png",
+      "region": "grid",
+      "severity": "medium",
+      "pillar": "AOV"
+    },
+    {
+      "id": "vf-pdp-no-reorder",
+      "observation": "PDP has no subscribe-and-save or reorder control for a consumable product.",
+      "screenshot_ref": "pdp-gingins/screenshots/pdp-gingins-fullpage.png",
+      "region": "buy-box",
+      "severity": "medium",
+      "pillar": "Retention"
+    },
+    {
+      "id": "vf-glp1-no-routine",
+      "observation": "GLP-1 article educates but offers no packaged, reorderable ginger+turmeric routine.",
+      "screenshot_ref": "content-glp1/screenshots/content-glp1-fullpage.png",
+      "region": "article-body",
+      "severity": "medium",
+      "pillar": "Retention"
+    },
+    {
+      "id": "vf-content-health-pattern",
+      "observation": "Health-content layout (testimonials + FAQ) exists and could anchor a condition landing page.",
+      "screenshot_ref": "content-glp1/screenshots/content-glp1-fullpage.png",
+      "region": "article-body",
+      "severity": "low",
+      "pillar": "Acquisition"
+    }
+  ]
+}

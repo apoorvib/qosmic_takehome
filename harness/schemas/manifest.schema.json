@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manifest.schema.json",
+  "title": "Crawl manifest",
+  "description": "Index of surfaces captured for one store. Produced by extract.py (Module 1). Consumed by Reason and by Eval's signal-path resolution.",
+  "type": "object",
+  "required": ["store", "crawled_at", "surfaces"],
+  "properties": {
+    "store": { "type": "string", "description": "Store identifier / hostname." },
+    "crawled_at": { "type": "string", "description": "ISO-8601 capture timestamp." },
+    "surfaces": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "url", "status", "page_json"],
+        "properties": {
+          "id": { "type": "string", "description": "Stable surface id, e.g. 'pdp-gingins'. Referenced by triggering_signal dotted paths." },
+          "type": { "type": "string", "enum": ["homepage", "product", "collection", "cart", "content", "other"] },
+          "url": { "type": "string" },
+          "status": { "type": "integer" },
+          "page_json": { "type": "string", "description": "Path to this surface's page.json, relative to the store artifact root." }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

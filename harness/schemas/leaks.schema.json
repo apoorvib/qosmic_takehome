@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "leaks.schema.json",
+  "title": "Detected leaks",
+  "description": "Revenue leaks detected per surface, each naming its triggering signal. Candidate experiments are built from these.",
+  "type": "object",
+  "required": ["leaks"],
+  "properties": {
+    "leaks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "pillar", "surface_id", "triggering_signal", "signal_type", "severity", "description"],
+        "properties": {
+          "id": { "type": "string" },
+          "pillar": { "type": "string", "enum": ["Conversion", "AOV", "Retention", "Acquisition", "Performance"] },
+          "surface_id": { "type": "string", "description": "Must match a manifest surface id." },
+          "triggering_signal": { "type": "string", "minLength": 1 },
+          "signal_type": { "type": "string", "enum": ["cro_signals", "network", "visual"] },
+          "severity": { "type": "string", "enum": ["low", "medium", "high"] },
+          "description": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

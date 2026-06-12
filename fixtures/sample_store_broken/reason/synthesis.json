@@ -1,0 +1,23 @@
+{
+  "headline": "Sample Ginger Co audit — the buy path is the constraint",
+  "themes": [
+    {
+      "title": "The purchase handoff is leaking demand",
+      "summary": "Strong product proof but no buying box on PDPs, an empty Where To Buy, and a /cart 404.",
+      "supporting_exp_ids": [
+        "exp-1a2b3c4d5e6f",
+        "exp-2b3c4d5e6f70",
+        "exp-a3b4c5d6e7f8"
+      ]
+    },
+    {
+      "title": "The content moat is under-commercialized",
+      "summary": "GLP-1 and health content can become reorderable routines and condition landing pages.",
+      "supporting_exp_ids": [
+        "exp-6f708192a3b4",
+        "exp-92a3b4c5d6e7",
+        "exp-8192a3b4c5d6"
+      ]
+    }
+  ]
+}
