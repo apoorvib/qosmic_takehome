@@ -1,3 +1,6 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# personal prep, not part of the deliverable
+LOOM_SCRIPT.md
