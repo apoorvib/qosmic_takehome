@@ -64,6 +64,18 @@ def main():
     r = run([PY, "harness/scripts/validate.py", str(out)])
     valid = r.returncode == 0
 
+    # 4b) Advisory: learned deterministic checks promoted by self_learn.py (non-fatal)
+    try:
+        sys.path.insert(0, str(ROOT))
+        from harness.scripts import learned_checks
+        findings = learned_checks.run_on_store(out)
+        if findings:
+            print(f"\n[learned-checks] {len(findings)} advisory finding(s):")
+            for f in findings:
+                print(f"  - {f['path']} [{f['rule_id']}] {f['detail']}")
+    except Exception:
+        pass
+
     # 5) Score
     if valid and not args.skip_eval:
         env = dict(os.environ, PYTHONPATH=str(ROOT))

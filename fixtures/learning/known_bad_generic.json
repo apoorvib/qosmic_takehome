@@ -1,0 +1,29 @@
+{
+  "_note": "Committed known-bad example for the self-learning gate. A learned rule that addresses 'generic_recommendation' MUST flag this experiment (true positive). store_profile carries gingerpeople tokens so the rule can confirm the experiment lacks store-specific grounding.",
+  "store_profile": {
+    "store": "gingerpeople.com",
+    "niche": "ginger & turmeric functional foods + candy",
+    "commerce_model": "retailer-routed",
+    "families": [{"name": "GIN GINS", "products": ["Original Ginger Chews"]}, {"name": "Ginger Rescue", "products": ["Hard Ginger Lozenges"]}],
+    "jobs_to_be_done": ["nausea", "travel/motion-sickness", "GLP-1 side-effects"],
+    "segments": ["functional-relief", "candy-snacker"],
+    "proof_points": ["World's #1 selling ginger candy", "86 reviews"],
+    "content_themes": ["recipes", "GLP-1"]
+  },
+  "experiments": [
+    {
+      "exp_id": "exp-000000000001",
+      "title": "Add urgency timers and exit-intent popups to lift conversion",
+      "pillar": "Conversion",
+      "hypothesis": "Adding countdown timers, low-stock badges and exit-intent popups creates urgency and lifts conversion, as it does on most ecommerce sites.",
+      "primary_change": "Add countdown timers, low-stock banners and exit-intent email popups site-wide."
+    },
+    {
+      "exp_id": "exp-000000000002",
+      "title": "Add a buying box to the GIN GINS PDP",
+      "pillar": "Conversion",
+      "hypothesis": "The GIN GINS Original PDP has 86 reviews but no add-to-cart or retailer module, so high-intent shoppers have no clear next step.",
+      "primary_change": "Add a 'Choose how to buy' box with retailer logos under the GIN GINS product title."
+    }
+  ]
+}

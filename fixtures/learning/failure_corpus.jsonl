@@ -1,0 +1,9 @@
+{"category": "generic_recommendation", "object_path": "experiments[2]", "source": "gingerpeople_degraded", "mechanizable": true, "note": "judge flagged urgency timers / exit-intent popups, not store-specific"}
+{"category": "generic_recommendation", "object_path": "experiments[5]", "source": "audit_0007", "mechanizable": true, "note": "added a generic social-proof badge with no product grounding"}
+{"category": "generic_recommendation", "object_path": "experiments[1]", "source": "audit_0011", "mechanizable": true, "note": "countdown timer recommendation, generic CRO boilerplate"}
+{"category": "generic_recommendation", "object_path": "experiments[8]", "source": "audit_0014", "mechanizable": true, "note": "exit-intent popup with no store-specific tie"}
+{"category": "generic_recommendation", "object_path": "experiments[4]", "source": "audit_0019", "mechanizable": true, "note": "scarcity banner, generic"}
+{"category": "unsupported_evidence", "object_path": "experiments[6].evidence", "source": "audit_0011", "mechanizable": false, "note": "cited screenshot does not show the claimed element; needs judge"}
+{"category": "unsupported_evidence", "object_path": "experiments[3].evidence", "source": "audit_0019", "mechanizable": false, "note": "hypothesis not supported by cited signal; needs judge"}
+{"category": "confidence", "object_path": "experiments[3].confidence", "source": "gingerpeople_degraded", "mechanizable": true, "note": "already covered by validate.py confidence-band check"}
+{"category": "technical_truthfulness", "object_path": "tech_checks[2].grounded_in", "source": "gingerpeople_degraded", "mechanizable": true, "note": "already covered by validate.py grounding check"}
