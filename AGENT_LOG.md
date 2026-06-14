@@ -2,7 +2,7 @@
 
 How this take-home was built, who drove, and the prompts that steered it.
 
-> Times are self-reported estimates — adjust to your actuals before submitting.
+> Times are self-reported estimates from the build session.
 
 ## Approach in one line
 

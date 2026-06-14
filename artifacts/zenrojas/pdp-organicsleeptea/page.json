@@ -1,0 +1,1129 @@
+{
+  "url": "https://zenrojas.com/products/organicsleeptea",
+  "type": "product",
+  "status": 200,
+  "title": "Organic Sleep Tea – Zen Rojas",
+  "meta": {
+    "title": "Organic Sleep Tea – Zen Rojas",
+    "description": "Drift Into Restful Nights Sip, relax, and let go. Our Organic Sleep Tea combines chamomile, lemon balm, passionflower, lavender, and skullcap to support peaceful, restorative sleep.",
+    "og": {
+      "og:site_name": "Zen Rojas",
+      "og:url": "https://zenrojas.com/products/organicsleeptea",
+      "og:title": "Organic Sleep Tea",
+      "og:type": "product",
+      "og:description": "Drift Into Restful Nights Sip, relax, and let go. Our Organic Sleep Tea combines chamomile, lemon balm, passionflower, lavender, and skullcap to support peaceful, restorative sleep.",
+      "og:price:amount": "1,157.49",
+      "og:price:currency": "INR",
+      "og:image": "http://zenrojas.com/cdn/shop/files/Orange_Modern_Creative_Colorful_Vivid_Business_Marketing_Consultancy_Instagram_Post_-_2_1200x1200.png?v=1777940163",
+      "og:image:secure_url": "https://zenrojas.com/cdn/shop/files/Orange_Modern_Creative_Colorful_Vivid_Business_Marketing_Consultancy_Instagram_Post_-_2_1200x1200.png?v=1777940163"
+    },
+    "viewport": "width=device-width,initial-scale=1",
+    "jsonld": []
+  },
+  "elements": [
+    {
+      "role": "button",
+      "text": "MENU",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        213,
+        61,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "HOME",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/",
+      "bbox": [
+        639,
+        206,
+        88,
+        50
+      ]
+    },
+    {
+      "role": "button",
+      "text": "PRODUCTS PRODUCTS MENU",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        613,
+        256,
+        140,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "CONTACT US",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/contactus",
+      "bbox": [
+        602,
+        306,
+        161,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "ABOUT US",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/aboutus",
+      "bbox": [
+        617,
+        356,
+        133,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Log in",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://zenrojas.com/customer_authentication/redirect?locale=en&region_country=IN",
+      "bbox": [
+        649,
+        466,
+        68,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Create account",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://shopify.com/27573977165/account?locale=en&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6ZW4tcm9qYXMubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzgxODYxNTU4LCJuYmYiOjE3ODEyNTY3NTh9.eKUVzx55t23wiMqR6hmsoa6Sw_LpIENjTRNgha_9OuE",
+      "bbox": [
+        613,
+        500,
+        139,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Search",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/search",
+      "bbox": [
+        646,
+        533,
+        73,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Blog",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/blogs/weekly-blog",
+      "bbox": [
+        656,
+        567,
+        54,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ambassador Program",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/ambassadorprogram",
+      "bbox": [
+        590,
+        600,
+        187,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "FAQs",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/faqs",
+      "bbox": [
+        653,
+        634,
+        60,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Refund Policy",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/returnpolicy",
+      "bbox": [
+        619,
+        668,
+        128,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Privacy Policy",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/privacypolicy",
+      "bbox": [
+        618,
+        701,
+        131,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Terms of Service",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/policies/terms-of-service",
+      "bbox": [
+        607,
+        735,
+        152,
+        34
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Facebook",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.facebook.com/zenrojas0",
+      "bbox": [
+        633,
+        833,
+        24,
+        18
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Twitter",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://twitter.com/ZenRojas0",
+      "bbox": [
+        671,
+        833,
+        24,
+        18
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Instagram",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.instagram.com/zen_rojas/",
+      "bbox": [
+        709,
+        833,
+        24,
+        18
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/",
+      "bbox": [
+        653,
+        56,
+        60,
+        60
+      ]
+    },
+    {
+      "role": "a",
+      "text": "VIEW CART",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/cart",
+      "bbox": [
+        1103,
+        61,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "href": "//zenrojas.com/cdn/shop/products/image_67f8498a-d9d0-4ee6-8140-bd9e94593c12.jpg?v=1647449769",
+      "bbox": [
+        331,
+        206,
+        704,
+        650
+      ]
+    },
+    {
+      "role": "a",
+      "text": "SEARCH",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/search",
+      "bbox": [
+        223,
+        557,
+        50,
+        13
+      ]
+    },
+    {
+      "role": "a",
+      "text": "BLOG",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/blogs/weekly-blog",
+      "bbox": [
+        223,
+        586,
+        33,
+        13
+      ]
+    },
+    {
+      "role": "a",
+      "text": "AMBASSADOR PROGRAM",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/ambassadorprogram",
+      "bbox": [
+        223,
+        616,
+        154,
+        13
+      ]
+    },
+    {
+      "role": "a",
+      "text": "FAQS",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/faqs",
+      "bbox": [
+        223,
+        645,
+        32,
+        13
+      ]
+    },
+    {
+      "role": "a",
+      "text": "REFUND POLICY",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/returnpolicy",
+      "bbox": [
+        223,
+        675,
+        100,
+        13
+      ]
+    },
+    {
+      "role": "a",
+      "text": "PRIVACY POLICY",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/pages/privacypolicy",
+      "bbox": [
+        223,
+        704,
+        102,
+        13
+      ]
+    },
+    {
+      "role": "a",
+      "text": "TERMS OF SERVICE",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/policies/terms-of-service",
+      "bbox": [
+        223,
+        734,
+        118,
+        13
+      ]
+    },
+    {
+      "role": "form",
+      "text": "STAY CONNECTED Promotions, new products and sales. Directly to your inbox. SUBSCRIBE",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        713,
+        549,
+        430,
+        150
+      ]
+    },
+    {
+      "role": "input",
+      "text": "My email address",
+      "visible": true,
+      "aboveFold": true,
+      "type": "email",
+      "name": "contact[email]",
+      "placeholder": "My email address",
+      "bbox": [
+        713,
+        632,
+        280,
+        44
+      ]
+    },
+    {
+      "role": "button",
+      "text": "SUBSCRIBE",
+      "visible": true,
+      "aboveFold": true,
+      "type": "submit",
+      "bbox": [
+        1044,
+        645,
+        99,
+        18
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Facebook",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.facebook.com/zenrojas0",
+      "bbox": [
+        213,
+        821,
+        20,
+        18
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Twitter",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://twitter.com/ZenRojas0",
+      "bbox": [
+        247,
+        821,
+        20,
+        18
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Instagram",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.instagram.com/zen_rojas/",
+      "bbox": [
+        281,
+        821,
+        20,
+        18
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Zen Rojas",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/",
+      "bbox": [
+        650,
+        824,
+        53,
+        14
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Powered by Shopify",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore",
+      "bbox": [
+        710,
+        824,
+        111,
+        14
+      ]
+    },
+    {
+      "role": "form",
+      "text": "CLOSE CART SHOPPING CART Your cart is currently empty. Subtotal Rs. 0.00 Taxes and shipping calculated at checkout CHECK",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        1366,
+        0,
+        400,
+        900
+      ]
+    },
+    {
+      "role": "button",
+      "text": "CLOSE CART",
+      "visible": true,
+      "aboveFold": true,
+      "type": "button",
+      "bbox": [
+        1692,
+        15,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "button",
+      "text": "PREVIOUS",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        543,
+        120,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "button",
+      "text": "NEXT",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        773,
+        120,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "button",
+      "text": "Slide 1",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        657,
+        143,
+        4,
+        4
+      ]
+    },
+    {
+      "role": "button",
+      "text": "Slide 2",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        673,
+        143,
+        4,
+        4
+      ]
+    },
+    {
+      "role": "button",
+      "text": "Slide 3",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        689,
+        143,
+        4,
+        4
+      ]
+    },
+    {
+      "role": "button",
+      "text": "Slide 4",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        705,
+        143,
+        4,
+        4
+      ]
+    },
+    {
+      "role": "form",
+      "text": "SUBSCRIBE",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        526,
+        519,
+        315,
+        148
+      ]
+    },
+    {
+      "role": "input",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "placeholder": "first name",
+      "bbox": [
+        526,
+        519,
+        153,
+        40
+      ]
+    },
+    {
+      "role": "input",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "placeholder": "last name",
+      "bbox": [
+        688,
+        519,
+        153,
+        40
+      ]
+    },
+    {
+      "role": "input",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "type": "email",
+      "placeholder": "email address",
+      "bbox": [
+        526,
+        573,
+        315,
+        40
+      ]
+    },
+    {
+      "role": "button",
+      "text": "SUBSCRIBE",
+      "visible": true,
+      "aboveFold": true,
+      "type": "submit",
+      "bbox": [
+        526,
+        627,
+        315,
+        40
+      ]
+    },
+    {
+      "role": "search",
+      "text": "SEARCH AGAIN",
+      "visible": true,
+      "aboveFold": false,
+      "bbox": [
+        558,
+        928,
+        250,
+        52
+      ]
+    },
+    {
+      "role": "input",
+      "text": "Search",
+      "visible": true,
+      "aboveFold": false,
+      "type": "search",
+      "name": "q",
+      "placeholder": "Search",
+      "bbox": [
+        558,
+        928,
+        197,
+        44
+      ]
+    },
+    {
+      "role": "button",
+      "text": "SEARCH AGAIN",
+      "visible": true,
+      "aboveFold": false,
+      "type": "submit",
+      "bbox": [
+        756,
+        928,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "form",
+      "text": "Organic Sleep Tea Loose Leaf 40g Full Size - $12 SOLD OUT",
+      "visible": true,
+      "aboveFold": false,
+      "bbox": [
+        293,
+        1143,
+        360,
+        136
+      ]
+    },
+    {
+      "role": "select",
+      "text": "Loose Leaf 40g Full Size - $12",
+      "visible": true,
+      "aboveFold": false,
+      "name": "Organic Sleep Tea",
+      "bbox": [
+        293,
+        1143,
+        360,
+        46
+      ]
+    },
+    {
+      "role": "button",
+      "text": "SOLD OUT",
+      "visible": true,
+      "aboveFold": false,
+      "type": "submit",
+      "name": "add",
+      "bbox": [
+        293,
+        1229,
+        360,
+        50
+      ]
+    },
+    {
+      "role": "button",
+      "text": "SHARE",
+      "visible": true,
+      "aboveFold": false,
+      "bbox": [
+        412,
+        1309,
+        121,
+        66
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Share Share on Facebook",
+      "visible": true,
+      "aboveFold": false,
+      "href": "//www.facebook.com/sharer.php?u=https://zenrojas.com/products/organicsleeptea",
+      "bbox": [
+        448,
+        1309,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Tweet Tweet on Twitter",
+      "visible": true,
+      "aboveFold": false,
+      "href": "//twitter.com/share?text=Organic%20Sleep%20Tea&url=https://zenrojas.com/products/organicsleeptea",
+      "bbox": [
+        448,
+        1309,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Pin it Pin on Pinterest",
+      "visible": true,
+      "aboveFold": false,
+      "href": "//pinterest.com/pin/create/button/?url=https://zenrojas.com/products/organicsleeptea&media=//zenrojas.com/cdn/shop/products/image_67f8498a-d9d0-4ee6-8140-bd9e94593c12_1024x1024.jpg?v=1647449769&description=Organic%20Sleep%20Tea",
+      "bbox": [
+        448,
+        1309,
+        50,
+        50
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "//zenrojas.com/cdn/shop/products/image_67f8498a-d9d0-4ee6-8140-bd9e94593c12.jpg?v=1647449769",
+      "bbox": [
+        0,
+        2875,
+        683,
+        683
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "//zenrojas.com/cdn/shop/products/image_a97e5d07-c216-4d3b-afdd-ad5db4b6dd9e.heic?v=1667929347",
+      "bbox": [
+        683,
+        2875,
+        683,
+        683
+      ]
+    }
+  ],
+  "cro_signals": {
+    "price": {
+      "present": true,
+      "value": "Price Rs. 1,157.49"
+    },
+    "add_to_cart": {
+      "present": true
+    },
+    "reviews": {
+      "present": true,
+      "value": "review widget present"
+    },
+    "trust_badges": {
+      "present": false
+    },
+    "search": {
+      "present": true
+    },
+    "promo_bar": {
+      "present": true,
+      "text": "FREE SHIPPING ON ALL $50+ ORDERS"
+    },
+    "primary_cta": {
+      "present": false
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h1",
+      "text": "Organic Sleep Tea"
+    },
+    {
+      "role": "h2",
+      "text": "Complete Your Ritual"
+    },
+    {
+      "role": "h3",
+      "text": "Zen Rojas Loose Leaf Samplers"
+    },
+    {
+      "role": "h3",
+      "text": "Zen Rojas Tea Bag Samplers"
+    },
+    {
+      "role": "h3",
+      "text": "Organic Black Tea"
+    },
+    {
+      "role": "h3",
+      "text": "Bodyguard Organic Tea"
+    }
+  ],
+  "content": "Organic Sleep Tea Price Rs. 1,157.49 Drift Into Restful Nights Unwind naturally and prepare for deep, restorative sleep with the Zen Rojas Organic Sleep Tea. Crafted with a calming blend of chamomile, lemon balm, passionflower, lavender, and skullcap, this organic herbal tea is designed to help you relax your mind, ease tension, and drift into peaceful rest. Ea What's Inside Organic Herbal Blend: Combines chamomile, lemon balm, passionflower, lavender, and skullcap to naturally calm the body and support restful sleep Sleep Support: Offers soothing herbs to help ease stress and promote deeper sleep cycles Aromatic Floral Profile: Delivers a soothing scent and smooth taste that enhances relaxation before bedtime Naturally Calming Botanicals: Plant-based alternative to sleep aids without grogginess the next day Why You'll Love It 20 cups (40g) per bag Premium loose-leaf blend Small-batch herbal formulation Caffeine-free Ethically sourced ingredients Ethically sourced ingredients How to Use Add 2g of loose leaf tea to 8oz hot water Add 2g of loose leaf tea to 8oz hot water Steep for 5–7 minutes Steep for 5–7 minutes Sip and enjoy daily for best results Sip and enjoy daily for best results All Zen Rojas teas are 100% organic and ethically sourced, ensuring premium quality and sustainability in every cup. Every purchase comes with a 30-Day Warranty for added peace of mind. This product has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Therefore any information on this website is presented solely as the opinions of their respective authors who in which do not claim in any way shape Complete Your Ritual Zen Rojas Loose Leaf Samplers From Rs. 192.91 Zen Rojas Loose Leaf Samplers Zen Rojas Te",
+  "screenshots": [
+    "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+    "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-hero.png"
+  ],
+  "network": {
+    "nav_timing_ms": 1579,
+    "requests": 254,
+    "redirects": [],
+    "security_headers": {
+      "strict-transport-security": "max-age=7889238",
+      "content-security-policy": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff"
+    },
+    "responses": [
+      {
+        "url": "https://zenrojas.com/products/organicsleeptea",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/products/organicsleeptea",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shop/files/Logo_x60.png?v=1616214451",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shop/t/9/assets/theme.scss.css?v=82017930675695118061762233897",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/checkouts/internal/preloads.js?locale=en-IN",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_CvwbWWHX.en.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_DVfIC9Xf.en.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.document_CC4DPZSc.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.init_Bmwtn6sN.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.window_BV7pwtSs.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.tslib-es6_i06t5CRd.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.errors_CTUuk3kr.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.casing_Bd8FVtoj.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.v4_CSBSzmbm.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.storage_BGV5Ustn.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.authorize_CPxox-Yu.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.useEventListener_BZBUIDsp.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.hooks_UXWfTzQL.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.validators_Cj2qrO-d.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_Coh-7cJ6.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_D4of-Jj4.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.preact-module_Cvpcobqs.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.index_DLFpL-Au.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.utils_1bb8Zmgu.esm.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/fonts/quattrocento_sans/quattrocentosans_n4.ce5e9bf514e68f53bdd875976847cf755c702eaa.woff2",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-bf1cdb70.js?v=20250812",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/privacy-banner/storefront-banner.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shop/t/9/assets/lazysizes.min.js?v=41644173127543473891634936878",
+        "status": 200
+      },
+      {
+        "url": "https://cdn.shopify.com/extensions/cb89e3c1-e126-4528-bfe3-8ac1ed071291/inbox-1274/assets/inbox-chat-loader.js",
+        "status": 200
+      },
+      {
+        "url": "https://cdn.shopify.com/extensions/019ebad2-a146-78c8-a91b-88407dc7a77e/lb-upsell-389/assets/lb-utils.js",
+        "status": 200
+      },
+      {
+        "url": "https://cdn.shopify.com/extensions/019ebad2-a146-78c8-a91b-88407dc7a77e/lb-upsell-389/assets/lb-selleasy.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/fonts/quattrocento_sans/quattrocentosans_n7.bdda9092621b2e3b4284b12e8f0c092969b176c1.woff2",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/fonts/playfair_display/playfairdisplay_n7.592b3435e0fff3f50b26d410c73ae7ec893f6910.woff2",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/fonts/quattrocento_sans/quattrocentosans_i4.4f70b1e78f59fa1468e3436ab863ff0bf71e71bb.woff2",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shop/t/9/assets/vendor.min.js?v=85821191610609335681634936882",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shop/t/9/assets/custom.js?v=101612360477050417211634936876",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shop/t/9/assets/theme.min.js?v=143434099123678971721634936880",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.5.0.min.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/wpm/be9cdb0d3wf7a93d55pd80d1b79me3fb0d36m.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/s/trekkie.storefront.370ef8ffef154dc56bb5a814fea4666724353464.min.js",
+        "status": 200
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/U7Qi5a/klaviyo.js?company_id=U7Qi5a",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels@e9cdb0d3wf7a93d55pd80d1b79me3fb0d36/app/web-pixel-587006143@ed24a66cfc901e9f66a77fcd7f6b6205~2/pixel.modern.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels@e9cdb0d3wf7a93d55pd80d1b79me3fb0d36/web-pixel-2212495551@58daf38f8730bc20f5715012a9b1ff5b/sandbox/worker.modern.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels@e9cdb0d3wf7a93d55pd80d1b79me3fb0d36/web-pixel-shopify-app-pixel@0460/sandbox/worker.modern.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels@e9cdb0d3wf7a93d55pd80d1b79me3fb0d36/web-pixel-2113896639@a451bb5b79c95ec6981bec9c1b10ec34/sandbox/worker.modern.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels@e9cdb0d3wf7a93d55pd80d1b79me3fb0d36/web-pixel-656375999@22e92c2ad45662f435e4801458fb78cc/sandbox/worker.modern.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/api/collect",
+        "status": 200
+      },
+      {
+        "url": "https://cdn.shopify.com/storefront/standard-actions.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cdn/wpm/se9cdb0d3wf7a93d55pd80d1b79me3fb0d36m.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels/strict/app/web-pixel-shopify-app-pixel@0460.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels/strict/app/web-pixel-656375999@22e92c2ad45662f435e4801458fb78cc.js",
+        "status": 200
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-c173577b.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels/strict/app/web-pixel-2212495551@58daf38f8730bc20f5715012a9b1ff5b.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/web-pixels/strict/app/web-pixel-2113896639@a451bb5b79c95ec6981bec9c1b10ec34.js",
+        "status": 200
+      },
+      {
+        "url": "https://zenrojas.com/cart.js",
+        "status": 200
+      }
+    ]
+  },
+  "console_errors": [
+    "Access to script at 'https://shop.app/checkouts/internal/preloads.js?locale=en-IN&shop_id=27573977165' from origin 'https://zenrojas.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://shop.app/pay/session?v=1&token=df43b863-8e66-48d3-9f29-fa7e580dbb47&shop_id=27573977165' from origin 'https://zenrojas.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://monorail-edge.shopifysvc.com/v1/produce' from origin 'https://zenrojas.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://otlp-http-production.shopifysvc.com/v1/metrics' from origin 'https://zenrojas.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://otlp-http-production.shopifysvc.com/v1/logs' from origin 'https://zenrojas.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://ecomsend-go.ecomsend.com/api/shop/v1/getClientEnv' from origin 'https://zenrojas.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://monorail-edge.shopifysvc.com/v1/produce' from origin 'https://zenrojas.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to resource at 'https://otlp-http-production.shopifysvc.com/v1/logs' from origin 'https://zenrojas.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to resource at 'https://otlp-http-production.shopifysvc.com/v1/metrics' from origin 'https://zenrojas.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://ecomsend-go.ecomsend.com/api/popup/v2/clientPopupList' from origin 'https://zenrojas.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED"
+  ]
+}

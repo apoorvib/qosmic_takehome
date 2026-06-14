@@ -1,0 +1,1258 @@
+{
+  "url": "https://gingerpeople.com/the-ginger-people-products/",
+  "type": "other",
+  "status": 200,
+  "title": "The Ginger People® Products",
+  "meta": {
+    "title": "The Ginger People® Products",
+    "description": "It doesn’t matter if you are looking for an immunity boost, inflammation support, improving digestion, or recovering from a workout, The Ginger People® has a product that fits perfectly for you. Save time juicing with our ginger and turmeric juices or soothe your stomach on the go with our ever popular GIN GINS®.",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "The Ginger People® Products",
+      "og:description": "It doesn’t matter if you are looking for an immunity boost, inflammation support, improving digestion, or recovering from a workout, The Ginger People® has a product that fits perfectly for you. Save time juicing with our ginger and turmeric juices or soothe your stomach on the go with our ever popular GIN GINS®.",
+      "og:url": "https://gingerpeople.com/the-ginger-people-products/",
+      "og:site_name": "The Ginger People US",
+      "og:image": "https://gingerpeople.com/wp-content/uploads/2021/08/Proud-Knobs-with-US-Products-cp.png",
+      "og:image:width": "752",
+      "og:image:height": "427",
+      "og:image:type": "image/png"
+    },
+    "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://gingerpeople.com/the-ginger-people-products/",
+            "url": "https://gingerpeople.com/the-ginger-people-products/",
+            "name": "The Ginger People® Products",
+            "isPartOf": {
+              "@id": "https://gingerpeople.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://gingerpeople.com/the-ginger-people-products/#primaryimage"
+            },
+            "image": {
+              "@id": "https://gingerpeople.com/the-ginger-people-products/#primaryimage"
+            },
+            "thumbnailUrl": "https://gingerpeople.com/wp-content/uploads/2021/08/Proud-Knobs-with-US-Products-cp.png",
+            "datePublished": "2021-08-17T17:04:25+00:00",
+            "dateModified": "2024-06-18T18:12:50+00:00",
+            "description": "It doesn’t matter if you are looking for an immunity boost, inflammation support, improving digestion, or recovering from a workout, The Ginger People® has a product that fits perfectly for you. Save time juicing with our ginger and turmeric juices or soothe your stomach on the go with our ever popular GIN GINS®.",
+            "breadcrumb": {
+              "@id": "https://gingerpeople.com/the-ginger-people-products/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://gingerpeople.com/the-ginger-people-products/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://gingerpeople.com/the-ginger-people-products/#primaryimage",
+            "url": "https://gingerpeople.com/wp-content/uploads/2021/08/Proud-Knobs-with-US-Products-cp.png",
+            "contentUrl": "https://gingerpeople.com/wp-content/uploads/2021/08/Proud-Knobs-with-US-Products-cp.png",
+            "width": 752,
+            "height": 427
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://gingerpeople.com/the-ginger-people-products/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://gingerpeople.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "All Products"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://gingerpeople.com/#website",
+            "url": "https://gingerpeople.com/",
+            "name": "The Ginger People US",
+            "description": "Ginger and Turmeric Products",
+            "publisher": {
+              "@id": "https://gingerpeople.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://gingerpeople.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://gingerpeople.com/#organization",
+            "name": "The Ginger People",
+            "url": "https://gingerpeople.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://gingerpeople.com/#/schema/logo/image/",
+              "url": "https://gingerpeople.com/wp-content/uploads/2021/08/Logo_stacked_tag.png",
+              "contentUrl": "https://gingerpeople.com/wp-content/uploads/2021/08/Logo_stacked_tag.png",
+              "width": 1200,
+              "height": 1017,
+              "caption": "The Ginger People"
+            },
+            "image": {
+              "@id": "https://gingerpeople.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/GINGERPEOPLE/",
+              "https://x.com/thegingerpeople",
+              "https://instagram.com/the_ginger_people",
+              "https://www.linkedin.com/company/the-ginger-people",
+              "https://www.pinterest.com/gingerpeople/"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elements": [
+    {
+      "role": "a",
+      "text": "NORTH AMERICA",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/",
+      "bbox": [
+        153,
+        16,
+        99,
+        23
+      ]
+    },
+    {
+      "role": "a",
+      "text": "EUROPE",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://eu.gingerpeople.com/",
+      "bbox": [
+        262,
+        16,
+        54,
+        23
+      ]
+    },
+    {
+      "role": "a",
+      "text": "ASIA PACIFIC",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://au.gingerpeople.com/",
+      "bbox": [
+        325,
+        16,
+        79,
+        23
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on Instagram",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.instagram.com/the_ginger_people/",
+      "bbox": [
+        1264,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on Facebook",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.facebook.com/GINGERPEOPLE/",
+      "bbox": [
+        1294,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on LinkedIn",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.linkedin.com/company/the-ginger-people",
+      "bbox": [
+        1324,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/",
+      "bbox": [
+        533,
+        68,
+        300,
+        73
+      ]
+    },
+    {
+      "role": "a",
+      "text": "PRODUCTS",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/the-ginger-people-products/",
+      "bbox": [
+        263,
+        141,
+        112,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "BULK INGREDIENTS",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/ingredients/",
+      "bbox": [
+        397,
+        141,
+        185,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "RECIPES",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/our-recipes/",
+      "bbox": [
+        604,
+        141,
+        93,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "ABOUT",
+      "visible": true,
+      "aboveFold": true,
+      "href": "#",
+      "bbox": [
+        719,
+        141,
+        81,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "BLOG",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/health-blog/",
+      "bbox": [
+        822,
+        141,
+        70,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "WHERE TO BUY",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/where-to-buy-the-ginger-people-products/",
+      "bbox": [
+        915,
+        141,
+        150,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/products/gin-gins-original-ginger-chews/",
+      "bbox": [
+        143,
+        710,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/products/gin-gins-boost-red-magic-ginger-chews/",
+      "bbox": [
+        516,
+        710,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/products/gin-gins-mandarin-orange-ginger-chews/",
+      "bbox": [
+        888,
+        710,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Original Ginger Chews",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-original-ginger-chews/",
+      "bbox": [
+        202,
+        975,
+        218,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Boost – Red Magic Ginger Chews",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-boost-red-magic-ginger-chews/",
+      "bbox": [
+        587,
+        975,
+        193,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Mandarin Orange Ginger Chews",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-mandarin-orange-ginger-chews/",
+      "bbox": [
+        939,
+        975,
+        234,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-lemon-ginger-chews/",
+      "bbox": [
+        143,
+        1071,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Lemon Ginger Chews",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-lemon-ginger-chews/",
+      "bbox": [
+        206,
+        1336,
+        209,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-spicy-apple-ginger-chews/",
+      "bbox": [
+        516,
+        1071,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Spicy Apple Ginger Chews",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-spicy-apple-ginger-chews/",
+      "bbox": [
+        588,
+        1336,
+        190,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-peanut-ginger-chews/",
+      "bbox": [
+        888,
+        1071,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Peanut Ginger Chews",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-peanut-ginger-chews/",
+      "bbox": [
+        951,
+        1336,
+        210,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-spicy-turmeric-ginger-chews/",
+      "bbox": [
+        143,
+        1432,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Spicy Turmeric Ginger Chews",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-spicy-turmeric-ginger-chews/",
+      "bbox": [
+        203,
+        1696,
+        215,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-double-strength-hard-ginger-candy/",
+      "bbox": [
+        516,
+        1432,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Double Strength Hard Ginger Candy",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-double-strength-hard-ginger-candy/",
+      "bbox": [
+        570,
+        1696,
+        226,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-super-strength-ginger-candy/",
+      "bbox": [
+        888,
+        1432,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Super Strength Ginger Candy",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-super-strength-ginger-candy/",
+      "bbox": [
+        947,
+        1696,
+        217,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-ginger-spice-drops/",
+      "bbox": [
+        143,
+        1792,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Ginger Spice Drops",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-ginger-spice-drops/",
+      "bbox": [
+        211,
+        2057,
+        199,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/fiji-crystallized-ginger/",
+      "bbox": [
+        516,
+        1792,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Crystallized Ginger",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/fiji-crystallized-ginger/",
+      "bbox": [
+        606,
+        2057,
+        155,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-ginger-gummies/",
+      "bbox": [
+        888,
+        1792,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "GIN GINS® Sweet Ginger Gummies",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/gin-gins-ginger-gummies/",
+      "bbox": [
+        954,
+        2057,
+        202,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-soft-ginger-lozenges/",
+      "bbox": [
+        143,
+        2153,
+        335,
+        271
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Rescue® Digestive Wellness Lozenges, Extra Strength 800mg",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-soft-ginger-lozenges/",
+      "bbox": [
+        204,
+        2434,
+        213,
+        60
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+      "bbox": [
+        516,
+        2153,
+        335,
+        271
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+      "bbox": [
+        568,
+        2434,
+        229,
+        60
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-chewable-ginger-tablets-strong/",
+      "bbox": [
+        888,
+        2153,
+        335,
+        271
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Rescue® Chewable Ginger Tablets – Strong",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-chewable-ginger-tablets-strong/",
+      "bbox": [
+        947,
+        2433,
+        217,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-ginger-shots-lemon-cayenne/",
+      "bbox": [
+        143,
+        2550,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Rescue® Ginger Shots – Lemon Cayenne – Energy",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-ginger-shots-lemon-cayenne/",
+      "bbox": [
+        205,
+        2815,
+        212,
+        60
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-ginger-shots-turmeric/",
+      "bbox": [
+        516,
+        2550,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Rescue® Ginger Shots – Turmeric – Immunity",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-rescue-ginger-shots-turmeric/",
+      "bbox": [
+        567,
+        2815,
+        232,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/organic-ginger-juice/",
+      "bbox": [
+        888,
+        2550,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Organic Ginger Juice",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/organic-ginger-juice/",
+      "bbox": [
+        970,
+        2815,
+        172,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/fiji-ginger-juice/",
+      "bbox": [
+        143,
+        2931,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Fiji Ginger Juice",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/fiji-ginger-juice/",
+      "bbox": [
+        244,
+        3196,
+        132,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/fiji-turmeric-juice/",
+      "bbox": [
+        516,
+        2931,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Fiji Turmeric Juice",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/fiji-turmeric-juice/",
+      "bbox": [
+        609,
+        3196,
+        149,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/turmeric-juice/",
+      "bbox": [
+        888,
+        2931,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Organic Turmeric Juice",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/turmeric-juice/",
+      "bbox": [
+        961,
+        3196,
+        189,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-juice-non-gmo/",
+      "bbox": [
+        143,
+        3271,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Juice",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-juice-non-gmo/",
+      "bbox": [
+        259,
+        3536,
+        103,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-soother-elderberry-gingerade/",
+      "bbox": [
+        516,
+        3271,
+        335,
+        255
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Soother® Elderberry Gingerade",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-soother-elderberry-gingerade/",
+      "bbox": [
+        570,
+        3536,
+        226,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/products/ginger-soother-extra-strength-gingerade/",
+      "bbox": [
+        888,
+        3271,
+        335,
+        255
+      ]
+    }
+  ],
+  "cro_signals": {
+    "price": {
+      "present": false
+    },
+    "add_to_cart": {
+      "present": false
+    },
+    "reviews": {
+      "present": false
+    },
+    "trust_badges": {
+      "present": true,
+      "items": [
+        "#1 SOURCE For ginger and turmeric products"
+      ]
+    },
+    "search": {
+      "present": true
+    },
+    "promo_bar": {
+      "present": false
+    },
+    "primary_cta": {
+      "present": true,
+      "text": "WHERE TO BUY"
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h3",
+      "text": "ALL PRODUCTS"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Original Ginger Chews"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Boost – Red Magic Ginger Chews"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Mandarin Orange Ginger Chews"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Lemon Ginger Chews"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Spicy Apple Ginger Chews"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Peanut Ginger Chews"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Spicy Turmeric Ginger Chews"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Double Strength Hard Ginger Candy"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Super Strength Ginger Candy"
+    },
+    {
+      "role": "h2",
+      "text": "GIN GINS® Ginger Spice Drops"
+    },
+    {
+      "role": "h2",
+      "text": "Crystallized Ginger"
+    }
+  ],
+  "content": "ALL PRODUCTS GIN GINS® Original Ginger Chews GIN GINS® Boost – Red Magic Ginger Chews GIN GINS® Mandarin Orange Ginger Chews GIN GINS® Lemon Ginger Chews GIN GINS® Spicy Apple Ginger Chews GIN GINS® Peanut Ginger Chews GIN GINS® Spicy Turmeric Ginger Chews GIN GINS® Double Strength Hard Ginger Candy GIN GINS® Super Strength Ginger Candy GIN GINS® Ginger Spice Drops Crystallized Ginger GIN GINS® Sweet Ginger Gummies Ginger Rescue® Digestive Wellness Lozenges, Extra Strength 800mg Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg Ginger Rescue® Chewable Ginger Tablets – Strong Ginger Rescue® Ginger Shots – Lemon Cayenne – Energy Ginger Rescue® Ginger Shots – Turmeric – Immunity Organic Ginger Juice Fiji Ginger Juice Fiji Turmeric Juice Organic Turmeric Juice Ginger Juice Ginger Soother® Elderberry Gingerade Ginger Soother® Extra Strength Gingerade Ginger Soother® Lemon & Honey Gingerade Ginger Soother® Turmeric Gingerade Crystallized Ginger Chips Organic Crystallized Ginger Organic Ginger Syrup Organic Ginger Spread Organic Minced Turmeric Organic Minced Ginger Organic Grated Ginger Organic Pickled Sushi Ginger Organic Turmeric Juice – 5oz Organic Ginger Juice – 5oz Sweet Ginger Chili Sauce Ginger Peanut Sauce Spicy Ginger Teriyaki Sauce Ginger Sesame Marinade",
+  "screenshots": [
+    "page-the-ginger-people-products/screenshots/page-the-ginger-people-products-fullpage.png",
+    "page-the-ginger-people-products/screenshots/page-the-ginger-people-products-hero.png"
+  ],
+  "network": {
+    "nav_timing_ms": 5790,
+    "requests": 108,
+    "redirects": [],
+    "security_headers": {},
+    "responses": [
+      {
+        "url": "https://gingerpeople.com/the-ginger-people-products/",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/the-ginger-people-products/",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/01/GP_Logo_HR-300x73.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/08/Proud-Knobs-with-US-Products-all-products.png",
+        "status": 200
+      },
+      {
+        "url": "https://cdn-images.mailchimp.com/embedcode/slim-10_7.css",
+        "status": 200
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900&subset=latin,latin-ext&display=swap",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-social-sharing-buttons/styles/style.min.css?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/essential-grid/admin/includes/builders/gutenberg/build/index.css?ver=1752272180",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/divi-child/print.css?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-social-sharing-buttons/includes/assets/css/style.min.css?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/revslider/admin/includes/shortcode_generator/divi/styles/style.min.css?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/css/dashicons.min.css?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/essential-grid/public/assets/font/fontello/css/fontello.css?ver=3.1.9.2",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/styles/swiper.min.css?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/site-reviews/assets/styles/minimal.css?ver=8.0.11",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/css/frontend.css?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=3.1.9.2",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/divi-child/style.css?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/formidable/css/formidableforms1.css?ver=682153",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/style-static.min.css?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/styles/light-box-styles.css?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/js.cookie.min.js?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/styles/style.min.css?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-blog-extras/styles/style.min.css?ver=2.6.2",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/frontend.js?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.35",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/scripts/swiper.min.js?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/divi-child/custom.js",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.local.js?ver=1.9.3",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/css/block-style-index.css?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://static.addtoany.com/menu/page.js",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/03/90502_GinGins_Original_500px.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2026/01/90242_GIN-GINS-Boost_Red-Magic-Ginger-Chews_US_4oz_Front_No-Eurohole.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2025/01/90512_GinGins_Mandarin_front-e1736985934318-1024x1024.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2025/01/90513_GinGins_Lemon_front-e1736986127684-1024x1024.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/03/90503_GinGins_SpicyApple_500px.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/03/90504_GinGins_Peanut_500px.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/03/90510_GinGins_SpicyTurmeric_500px.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/03/90505_GinGins_DoubleStrength_500px.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/03/90507_GinGins_Super_500px.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/revslider/admin/includes/shortcode_generator/divi/scripts/frontend-bundle.min.js?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-social-sharing-buttons/scripts/frontend-bundle.min.js?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-blog-extras/scripts/frontend-bundle.min.js?ver=2.6.2",
+        "status": 200
+      },
+      {
+        "url": "https://assets.tumblr.com/share-button.js",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/scripts/frontend-bundle.min.js?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/easypiechart.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17",
+        "status": 200
+      }
+    ]
+  },
+  "console_errors": [
+    "Access to script at 'https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to font at 'https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DQ.woff2' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to script at 'https://static.addtoany.com/menu/modules/core.bycdb5qo.js' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: It does not have HTTP ok status.",
+    "Failed to load resource: net::ERR_FAILED"
+  ]
+}

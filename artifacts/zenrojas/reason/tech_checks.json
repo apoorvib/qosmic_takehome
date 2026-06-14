@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "name": "SSL Certificate",
+      "status": "Pass",
+      "detail": "HTTPS storefront with security headers present.",
+      "grounded_in": "home.network.security_headers"
+    },
+    {
+      "name": "HTTPS Redirect",
+      "status": "Pass",
+      "detail": "Storefront resolves over HTTPS.",
+      "grounded_in": "home.url resolves over https"
+    },
+    {
+      "name": "Sitemap",
+      "status": "Warn",
+      "detail": "Not inspected in this browser-first crawl.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Robots.txt",
+      "status": "Warn",
+      "detail": "Not inspected in this browser-first crawl.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Critical Pages Loading",
+      "status": "Pass",
+      "detail": "Home, collections, PDPs and cart all returned 200.",
+      "grounded_in": "home.status all critical pages 200"
+    },
+    {
+      "name": "Meta Tags & Social Previews",
+      "status": "Pass",
+      "detail": "Title and meta description present on homepage.",
+      "grounded_in": "home.meta.title"
+    },
+    {
+      "name": "Structured Data",
+      "status": "Fail",
+      "detail": "No JSON-LD structured data detected on homepage.",
+      "grounded_in": "home.meta.jsonld is empty"
+    },
+    {
+      "name": "Favicon",
+      "status": "Warn",
+      "detail": "Not evaluated from captured evidence.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Mobile-Friendly",
+      "status": "Warn",
+      "detail": "Desktop-only crawl.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Page Speed Mobile",
+      "status": "Warn",
+      "detail": "No mobile Lighthouse run performed.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Page Speed Desktop",
+      "status": "Warn",
+      "detail": "No Lighthouse run; best-sellers collection took ~10s in capture.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Broken Links",
+      "status": "Warn",
+      "detail": "No 4xx among inspected surfaces; not exhaustively crawled.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Image Optimization",
+      "status": "Warn",
+      "detail": "Not byte-measured; 200+ requests/page observed.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Cookie/Privacy",
+      "status": "Warn",
+      "detail": "Consent mechanics not inspected.",
+      "grounded_in": "not inspected"
+    },
+    {
+      "name": "Checkout Reachable",
+      "status": "Pass",
+      "detail": "Cart reachable (200); checkout not entered (safety).",
+      "grounded_in": "cart.status"
+    }
+  ]
+}

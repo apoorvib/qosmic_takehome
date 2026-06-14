@@ -1,0 +1,32 @@
+{
+  "headline": "Zen Rojas audit — premium tea, but the path from intent to ritual leaks",
+  "themes": [
+    {
+      "title": "The first impression fights the shopper",
+      "summary": "A full-screen email popup blocks the hero on load and PDPs lack visible social proof, so a premium-priced catalog loses trust and momentum at the decision point.",
+      "supporting_exp_ids": [
+        "exp-66a199e63076",
+        "exp-42f57ce0b20a"
+      ]
+    },
+    {
+      "title": "The ritual positioning is under-monetized",
+      "summary": "Tea, accessories and samplers are sold separately with no bundles, cross-sell, or subscribe-and-save — leaving basket size and recurring revenue on the table.",
+      "supporting_exp_ids": [
+        "exp-dd40992149d1",
+        "exp-44b11a3e464c",
+        "exp-bb38b538987f"
+      ]
+    },
+    {
+      "title": "Functional demand and content go uncaptured",
+      "summary": "Benefit-led navigation, intent landing pages, and commercialized founder/education content would convert search and story into shopping; meanwhile page weight drags speed.",
+      "supporting_exp_ids": [
+        "exp-6d09faf9a241",
+        "exp-13ceb164e75c",
+        "exp-27c70334829a",
+        "exp-786caca48c5c"
+      ]
+    }
+  ]
+}

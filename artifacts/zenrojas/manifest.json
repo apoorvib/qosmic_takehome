@@ -1,0 +1,69 @@
+{
+  "store": "zenrojas",
+  "crawled_at": "2026-06-12T09:33:27.022474+00:00",
+  "surfaces": [
+    {
+      "id": "home",
+      "type": "homepage",
+      "url": "https://zenrojas.com/",
+      "status": 200,
+      "page_json": "home/page.json"
+    },
+    {
+      "id": "collection-teas",
+      "type": "collection",
+      "url": "https://zenrojas.com/collections/teas",
+      "status": 200,
+      "page_json": "collection-teas/page.json"
+    },
+    {
+      "id": "collection-best-sellers",
+      "type": "collection",
+      "url": "https://zenrojas.com/collections/best-sellers",
+      "status": 200,
+      "page_json": "collection-best-sellers/page.json"
+    },
+    {
+      "id": "pdp-organicsleeptea",
+      "type": "product",
+      "url": "https://zenrojas.com/products/organicsleeptea",
+      "status": 200,
+      "page_json": "pdp-organicsleeptea/page.json"
+    },
+    {
+      "id": "pdp-heartburntea",
+      "type": "product",
+      "url": "https://zenrojas.com/products/heartburntea",
+      "status": 200,
+      "page_json": "pdp-heartburntea/page.json"
+    },
+    {
+      "id": "pdp-looseleafsamplers",
+      "type": "product",
+      "url": "https://zenrojas.com/products/looseleafsamplers",
+      "status": 200,
+      "page_json": "pdp-looseleafsamplers/page.json"
+    },
+    {
+      "id": "cart",
+      "type": "cart",
+      "url": "https://zenrojas.com/cart",
+      "status": 200,
+      "page_json": "cart/page.json"
+    },
+    {
+      "id": "content-faqs",
+      "type": "content",
+      "url": "https://zenrojas.com/pages/faqs",
+      "status": 200,
+      "page_json": "content-faqs/page.json"
+    },
+    {
+      "id": "content-weekly-blog",
+      "type": "content",
+      "url": "https://zenrojas.com/blogs/weekly-blog",
+      "status": 200,
+      "page_json": "content-weekly-blog/page.json"
+    }
+  ]
+}

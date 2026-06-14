@@ -1,0 +1,357 @@
+{
+  "store": "zenrojas",
+  "store_root": "artifacts\\zenrojas",
+  "overall_score": 100,
+  "acceptance": {
+    "passes": true,
+    "threshold": 80,
+    "critical_dimensions": [
+      "evidence_resolvability",
+      "technical_truthfulness",
+      "store_specificity"
+    ]
+  },
+  "layer1": {
+    "ok": true,
+    "errors": []
+  },
+  "dimension_scores": {
+    "structure_compliance": {
+      "weight": 15,
+      "score": 15,
+      "failures": []
+    },
+    "evidence_resolvability": {
+      "weight": 15,
+      "score": 15,
+      "failures": []
+    },
+    "evidence_claim_coherence": {
+      "weight": 20,
+      "score": 20,
+      "failures": []
+    },
+    "pillar_coverage": {
+      "weight": 10,
+      "score": 10,
+      "failures": []
+    },
+    "store_specificity": {
+      "weight": 15,
+      "score": 15,
+      "failures": []
+    },
+    "technical_truthfulness": {
+      "weight": 10,
+      "score": 10,
+      "failures": []
+    },
+    "competitor_grounding": {
+      "weight": 5,
+      "score": 5,
+      "failures": []
+    },
+    "report_quality": {
+      "weight": 10,
+      "score": 10,
+      "failures": []
+    }
+  },
+  "judge_tasks": [
+    {
+      "id": "judge-experiment-1",
+      "type": "experiment",
+      "object_path": "experiments[0]",
+      "exp_id": "exp-66a199e63076",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "home/screenshots/home-hero.png",
+          "triggering_signal": "visual_findings.vf-intrusive-popup",
+          "signal_type": "visual",
+          "store_profile_ref": "segment:wellness-seeker; ritual"
+        },
+        "hypothesis": "A full-screen subscribe popup overlays the hero on load across the homepage and PDPs, taxing the first impression before a visitor sees the product or value proposition.",
+        "primary_change": "Switch the email popup to fire on exit-intent or after ~20s/scroll, and keep the reward offer; never overlay the hero on first load."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-2",
+      "type": "experiment",
+      "object_path": "experiments[1]",
+      "exp_id": "exp-42f57ce0b20a",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+          "triggering_signal": "pdp-organicsleeptea.cro_signals.trust_badges.present=false",
+          "signal_type": "cro_signals",
+          "store_profile_ref": "proof:organic; segment:wellness-seeker"
+        },
+        "hypothesis": "The Organic Sleep Tea PDP has a review widget but no visible review count, rating, organic-certification badge, or guarantee near the buy box, so a premium-priced product lacks reassurance at the decision point.",
+        "primary_change": "Surface star rating + review count, an organic/quality badge, and a satisfaction guarantee directly under the price and add-to-cart."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-3",
+      "type": "experiment",
+      "object_path": "experiments[2]",
+      "exp_id": "exp-6d09faf9a241",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "collection-teas/screenshots/collection-teas-fullpage.png",
+          "triggering_signal": "visual_findings.vf-collection-no-benefit-filter",
+          "signal_type": "visual",
+          "store_profile_ref": "job:better sleep; job:digestive relief/heartburn"
+        },
+        "hypothesis": "Collections list teas by name with no benefit filters, asking shoppers to decode products rather than shop their goal (sleep, digestion, immunity).",
+        "primary_change": "Add benefit chips/filters ('For sleep', 'For digestion', 'For immunity', 'Daily ritual') and benefit-led section headers to the collection."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-4",
+      "type": "experiment",
+      "object_path": "experiments[3]",
+      "exp_id": "exp-dd40992149d1",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "collection-teas/screenshots/collection-teas-fullpage.png",
+          "triggering_signal": "visual_findings.vf-no-ritual-bundle",
+          "signal_type": "visual",
+          "store_profile_ref": "family:Accessories; ritual"
+        },
+        "hypothesis": "Teas and accessories (mug, infuser, tea bags) are sold separately; the brand's 'ritual' positioning is a natural fit for a starter kit that lifts basket size.",
+        "primary_change": "Create a 'Zen Ritual Starter Kit' bundling a featured tea + mug + infuser at a modest bundle discount, merchandised on home and collections."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-5",
+      "type": "experiment",
+      "object_path": "experiments[4]",
+      "exp_id": "exp-44b11a3e464c",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+          "triggering_signal": "visual_findings.vf-pdp-no-crosssell",
+          "signal_type": "visual",
+          "store_profile_ref": "family:Samplers; family:Accessories"
+        },
+        "hypothesis": "The PDP has no cross-sell near the buy box, missing the obvious accessory and sampler attach for a ritual product.",
+        "primary_change": "Add a 'Complete your ritual' module under add-to-cart suggesting an infuser, mug, or a complementary sampler."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-6",
+      "type": "experiment",
+      "object_path": "experiments[5]",
+      "exp_id": "exp-bb38b538987f",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+          "triggering_signal": "visual_findings.vf-pdp-no-subscription",
+          "signal_type": "visual",
+          "store_profile_ref": "job:daily ritual/relaxation; segment:wellness-seeker"
+        },
+        "hypothesis": "Tea is a repeat-consumption ritual product, but PDPs offer only one-time purchase, leaving recurring revenue and retention on the table.",
+        "primary_change": "Add a subscribe-and-save option (e.g. 10% off, monthly/bi-monthly) to consumable tea PDPs with easy management."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-7",
+      "type": "experiment",
+      "object_path": "experiments[6]",
+      "exp_id": "exp-71555c487d72",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "home/screenshots/home-fullpage.png",
+          "triggering_signal": "visual_findings.vf-ambassador-buried",
+          "signal_type": "visual",
+          "store_profile_ref": "content_theme:ambassador program; segment:tea-enthusiast"
+        },
+        "hypothesis": "The Ambassador Program is buried in the footer and never surfaced at purchase or post-purchase, so an existing loyalty asset goes unused.",
+        "primary_change": "Promote the Ambassador Program in the post-purchase flow, account area, and a homepage band, with a clear reward and share path."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-8",
+      "type": "experiment",
+      "object_path": "experiments[7]",
+      "exp_id": "exp-13ceb164e75c",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "content-weekly-blog/screenshots/content-weekly-blog-fullpage.png",
+          "triggering_signal": "visual_findings.vf-blog-uncommercialized",
+          "signal_type": "visual",
+          "store_profile_ref": "job:better sleep; job:immunity"
+        },
+        "hypothesis": "High-intent functional searches ('best organic tea for sleep', 'tea for heartburn') have no dedicated landing pages; the benefit content is buried in product copy and blog posts.",
+        "primary_change": "Create benefit landing pages (sleep, digestion, immunity) with the relevant teas, proof, FAQs and internal links from blog content."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-9",
+      "type": "experiment",
+      "object_path": "experiments[8]",
+      "exp_id": "exp-27c70334829a",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "content-weekly-blog/screenshots/content-weekly-blog-fullpage.png",
+          "triggering_signal": "visual_findings.vf-founder-uncommercialized",
+          "signal_type": "visual",
+          "store_profile_ref": "proof:founder Jesse Rojas story; content_theme:tea education"
+        },
+        "hypothesis": "The founder/family story and tea-education content build trust but do not route readers to products or a brand-story shopping path.",
+        "primary_change": "Add product modules and 'shop the story' CTAs into the founder post and education articles, linking to relevant teas and samplers."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-10",
+      "type": "experiment",
+      "object_path": "experiments[9]",
+      "exp_id": "exp-786caca48c5c",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "collection-best-sellers/screenshots/collection-best-sellers-fullpage.png",
+          "triggering_signal": "visual_findings.vf-perf-heavy",
+          "signal_type": "visual",
+          "store_profile_ref": "segment:wellness-seeker; ritual"
+        },
+        "hypothesis": "Pages fire 200+ requests with ~20 console errors from failed third-party (shop.app) scripts, and the best-sellers collection took ~10s to load in capture \u2014 a real speed and reliability drag on conversion.",
+        "primary_change": "Audit and lazy-load imagery, defer/remove failing third-party scripts, and compress hero/product images to cut requests and load time."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-executive-summary",
+      "type": "executive_summary",
+      "object_path": "executive_summary",
+      "checks": [
+        "summary_faithful_to_synthesis_and_top_leaks"
+      ],
+      "input_refs": {
+        "headline": "Zen Rojas audit \u2014 premium tea, but the path from intent to ritual leaks",
+        "themes": [
+          {
+            "title": "The first impression fights the shopper",
+            "summary": "A full-screen email popup blocks the hero on load and PDPs lack visible social proof, so a premium-priced catalog loses trust and momentum at the decision point.",
+            "supporting_exp_ids": [
+              "exp-66a199e63076",
+              "exp-42f57ce0b20a"
+            ]
+          },
+          {
+            "title": "The ritual positioning is under-monetized",
+            "summary": "Tea, accessories and samplers are sold separately with no bundles, cross-sell, or subscribe-and-save \u2014 leaving basket size and recurring revenue on the table.",
+            "supporting_exp_ids": [
+              "exp-dd40992149d1",
+              "exp-44b11a3e464c",
+              "exp-bb38b538987f"
+            ]
+          },
+          {
+            "title": "Functional demand and content go uncaptured",
+            "summary": "Benefit-led navigation, intent landing pages, and commercialized founder/education content would convert search and story into shopping; meanwhile page weight drags speed.",
+            "supporting_exp_ids": [
+              "exp-6d09faf9a241",
+              "exp-13ceb164e75c",
+              "exp-27c70334829a",
+              "exp-786caca48c5c"
+            ]
+          }
+        ]
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    }
+  ]
+}

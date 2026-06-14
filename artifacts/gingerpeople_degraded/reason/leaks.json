@@ -1,0 +1,94 @@
+{
+  "leaks": [
+    {
+      "id": "leak1",
+      "pillar": "Conversion",
+      "surface_id": "pdp-gin-gins-original-ginger-chews",
+      "triggering_signal": "pdp-gin-gins-original-ginger-chews.cro_signals.add_to_cart.present=false",
+      "signal_type": "cro_signals",
+      "severity": "high",
+      "description": "Add a buying box to every product page"
+    },
+    {
+      "id": "leak2",
+      "pillar": "Conversion",
+      "surface_id": "page-where-to-buy-the-ginger-people-products",
+      "triggering_signal": "visual_findings.vf-wtb-broken",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Rebuild the Where To Buy page into a purchase handoff"
+    },
+    {
+      "id": "leak3",
+      "pillar": "Conversion",
+      "surface_id": "home",
+      "triggering_signal": "visual_findings.vf-home-single-cta",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Turn the homepage into shopper-mission cards"
+    },
+    {
+      "id": "leak4",
+      "pillar": "AOV",
+      "surface_id": "pdp-ginger-rescue-hard-ginger-lozenges",
+      "triggering_signal": "visual_findings.vf-rescue-no-bundle",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Sell a travel nausea kit from the Ginger Rescue formats"
+    },
+    {
+      "id": "leak5",
+      "pillar": "AOV",
+      "surface_id": "page-gin-gins",
+      "triggering_signal": "visual_findings.vf-gingins-no-sampler",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Build a GIN GINS flavor sampler pack"
+    },
+    {
+      "id": "leak6",
+      "pillar": "Retention",
+      "surface_id": "page-boost-your-glp-1-naturally-the-power-of-",
+      "triggering_signal": "visual_findings.vf-glp1-no-routine",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Package a GLP-1 ginger + turmeric support routine"
+    },
+    {
+      "id": "leak7",
+      "pillar": "Retention",
+      "surface_id": "pdp-gin-gins-original-ginger-chews",
+      "triggering_signal": "visual_findings.vf-pdp-no-reorder",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Add an 'add to my ginger routine' reorder path on PDPs"
+    },
+    {
+      "id": "leak8",
+      "pillar": "Acquisition",
+      "surface_id": "page-the-ginger-people-products",
+      "triggering_signal": "visual_findings.vf-products-clutter",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Create a Find-Your-Ginger need quiz"
+    },
+    {
+      "id": "leak9",
+      "pillar": "Acquisition",
+      "surface_id": "page-boost-your-glp-1-naturally-the-power-of-",
+      "triggering_signal": "visual_findings.vf-glp1-health-pattern",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Create a morning-sickness ginger landing page"
+    },
+    {
+      "id": "leak10",
+      "pillar": "Performance",
+      "surface_id": "cart",
+      "triggering_signal": "cart.network.responses[].status=404",
+      "signal_type": "network",
+      "severity": "high",
+      "description": "Replace the /cart 404 with a purchase-recovery page"
+    }
+  ]
+}

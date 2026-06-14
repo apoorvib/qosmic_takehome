@@ -1,0 +1,94 @@
+{
+  "leaks": [
+    {
+      "id": "leak1",
+      "pillar": "Conversion",
+      "surface_id": "home",
+      "triggering_signal": "visual_findings.vf-intrusive-popup",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Trigger the email popup on exit-intent instead of blocking the hero on load"
+    },
+    {
+      "id": "leak2",
+      "pillar": "Conversion",
+      "surface_id": "pdp-organicsleeptea",
+      "triggering_signal": "pdp-organicsleeptea.cro_signals.trust_badges.present=false",
+      "signal_type": "cro_signals",
+      "severity": "high",
+      "description": "Add visible social proof and trust badges to PDPs"
+    },
+    {
+      "id": "leak3",
+      "pillar": "Conversion",
+      "surface_id": "collection-teas",
+      "triggering_signal": "visual_findings.vf-collection-no-benefit-filter",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Add benefit-led navigation to collections"
+    },
+    {
+      "id": "leak4",
+      "pillar": "AOV",
+      "surface_id": "collection-teas",
+      "triggering_signal": "visual_findings.vf-no-ritual-bundle",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Launch a tea + accessory ritual bundle"
+    },
+    {
+      "id": "leak5",
+      "pillar": "AOV",
+      "surface_id": "pdp-organicsleeptea",
+      "triggering_signal": "visual_findings.vf-pdp-no-crosssell",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Add 'complete your ritual' cross-sell to PDPs"
+    },
+    {
+      "id": "leak6",
+      "pillar": "Retention",
+      "surface_id": "pdp-organicsleeptea",
+      "triggering_signal": "visual_findings.vf-pdp-no-subscription",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Offer subscribe-and-save on consumable teas"
+    },
+    {
+      "id": "leak7",
+      "pillar": "Retention",
+      "surface_id": "home",
+      "triggering_signal": "visual_findings.vf-ambassador-buried",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Surface the Ambassador / loyalty program at key moments"
+    },
+    {
+      "id": "leak8",
+      "pillar": "Acquisition",
+      "surface_id": "content-weekly-blog",
+      "triggering_signal": "visual_findings.vf-blog-uncommercialized",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Build functional intent landing pages"
+    },
+    {
+      "id": "leak9",
+      "pillar": "Acquisition",
+      "surface_id": "content-weekly-blog",
+      "triggering_signal": "visual_findings.vf-founder-uncommercialized",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Commercialize the founder and education content"
+    },
+    {
+      "id": "leak10",
+      "pillar": "Performance",
+      "surface_id": "collection-best-sellers",
+      "triggering_signal": "visual_findings.vf-perf-heavy",
+      "signal_type": "visual",
+      "severity": "medium",
+      "description": "Reduce page weight and failed third-party scripts"
+    }
+  ]
+}

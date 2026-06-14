@@ -1,0 +1,41 @@
+{
+  "niche": "ginger functional foods + candy",
+  "competitors": [
+    {
+      "name": "Dramamine",
+      "domain": "dramamine.com",
+      "positioning": "OTC motion-sickness relief",
+      "makes_easier": "Immediate use-case clarity for nausea/travel",
+      "our_edge": "Natural ginger formats and candy/snack permission",
+      "pattern_to_adapt": "Dedicated nausea/travel pages with product-choice modules",
+      "source_url": "https://www.dramamine.com/"
+    },
+    {
+      "name": "Tummydrops",
+      "domain": "tummydrops.com",
+      "positioning": "Ginger/peppermint drops for nausea & digestive comfort",
+      "makes_easier": "Symptom-specific shopping",
+      "our_edge": "Broader catalog, recipes, mainstream candy formats",
+      "pattern_to_adapt": "Symptom-led navigation and format comparisons",
+      "source_url": "https://www.tummydrops.com/"
+    },
+    {
+      "name": "Reed's",
+      "domain": "drinkreeds.com",
+      "positioning": "Ginger beverages and ginger candy",
+      "makes_easier": "Beverage-led discovery and retail familiarity",
+      "our_edge": "Deeper ginger specialization and health education",
+      "pattern_to_adapt": "Stronger retailer handoff per product family",
+      "source_url": "https://drinkreeds.com/"
+    },
+    {
+      "name": "Chimes Gourmet",
+      "domain": "chimesgourmet.com",
+      "positioning": "Ginger chews and candy variety",
+      "makes_easier": "Simple flavor-led candy shopping",
+      "our_edge": "Stronger functional use cases, reviews, recipes, family story",
+      "pattern_to_adapt": "Flavor sampler and heat/flavor comparison",
+      "source_url": "https://www.chimesgourmet.com/"
+    }
+  ]
+}

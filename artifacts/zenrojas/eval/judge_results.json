@@ -1,0 +1,68 @@
+[
+  {
+    "task_id": "judge-experiment-1",
+    "score": 92,
+    "rationale": "The homepage screenshot directly shows the full-screen email popup blocking the hero, and the exit-intent recommendation follows from that evidence.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-2",
+    "score": 84,
+    "rationale": "The PDP supports the lack of trust proof near the buy box, though reviews appear lower on the page; the recommendation is still specific and valid.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-3",
+    "score": 89,
+    "rationale": "The tea collection screenshot supports the lack of benefit-led filters, and the proposed sleep/digestion/immunity navigation matches the product jobs.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-4",
+    "score": 88,
+    "rationale": "The collection shows teas, samplers, and accessories merchandised separately, supporting a ritual bundle experiment tied to the brand positioning.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-5",
+    "score": 82,
+    "rationale": "The PDP has related products lower down, but not near the buy box; the 'complete your ritual' recommendation is directionally supported with a narrower claim.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-6",
+    "score": 88,
+    "rationale": "The consumable tea PDP evidence supports repeat-purchase potential and the absence of a subscribe-and-save buying option.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-7",
+    "score": 85,
+    "rationale": "The ambassador/loyalty surface is present but buried, and the activation recommendation is specific to Zen Rojas' observed program.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-8",
+    "score": 87,
+    "rationale": "The blog/content evidence and product jobs support dedicated functional landing pages for sleep, digestion, and immunity intent.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-9",
+    "score": 86,
+    "rationale": "The founder and education content evidence supports adding product modules and story-to-shop paths; this is store-specific and reasonable.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-10",
+    "score": 83,
+    "rationale": "The performance claim is supported by page.json timing and console data, but the current triggering_signal is visual rather than a direct network metric citation.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-executive-summary",
+    "score": 90,
+    "rationale": "The summary accurately reflects the strongest themes: intrusive popup, weak buy-box proof, under-monetized ritual positioning, content gaps, and heavy pages.",
+    "failing_object_paths": []
+  }
+]

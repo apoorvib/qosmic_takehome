@@ -1,0 +1,68 @@
+[
+  {
+    "task_id": "judge-experiment-1",
+    "score": 92,
+    "rationale": "The PDP screenshot and cro_signal directly support the missing purchase module claim; the recommendation names GIN GINS and the retailer-routed buying job.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-2",
+    "score": 91,
+    "rationale": "The Where To Buy screenshot shows an error state and no locator or retailer handoff, so the purchase-handoff experiment is well supported and store-specific.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-3",
+    "score": 86,
+    "rationale": "The homepage evidence supports broad routing friction, and the proposed mission cards map to Ginger People's observed shopper jobs.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-4",
+    "score": 88,
+    "rationale": "The Ginger Rescue surface and store profile support a travel nausea kit; the recommendation uses a concrete product family and use case.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-5",
+    "score": 87,
+    "rationale": "The GIN GINS category evidence supports flavor-choice friction, and the sampler proposal is specific to the observed flavor family.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-6",
+    "score": 89,
+    "rationale": "The GLP-1 content and store profile support a routine/reorder experiment grounded in a recurring condition use case.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-7",
+    "score": 86,
+    "rationale": "The PDP evidence supports a weak retention path for consumables; the routine opt-in is specific to GIN GINS and functional-relief shoppers.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-8",
+    "score": 87,
+    "rationale": "The products-grid evidence and store profile support need-based shopping friction across nausea, cooking, and candy jobs.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-9",
+    "score": 85,
+    "rationale": "The health-content pattern supports a morning-sickness landing page; this is inferential but still grounded in the store's existing education content.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-experiment-10",
+    "score": 93,
+    "rationale": "The /cart 404 is directly captured by network status and screenshot evidence, and the recovery-page recommendation follows cleanly.",
+    "failing_object_paths": []
+  },
+  {
+    "task_id": "judge-executive-summary",
+    "score": 91,
+    "rationale": "The summary faithfully prioritizes the purchase handoff, broken Where To Buy/cart path, and under-commercialized content themes from synthesis.",
+    "failing_object_paths": []
+  }
+]

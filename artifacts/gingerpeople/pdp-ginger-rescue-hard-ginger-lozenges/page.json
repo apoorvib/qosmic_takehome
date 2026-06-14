@@ -1,0 +1,1192 @@
+{
+  "url": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+  "type": "product",
+  "status": 200,
+  "title": "Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg - The Ginger People US",
+  "meta": {
+    "title": "Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg - The Ginger People US",
+    "description": "Discover the natural, potent relief of our Ginger Rescue® Lozenges. Crafted for digestive comfort, these lozenges blend a high dose of fresh ginger with a boost of red ginger extract.",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg - The Ginger People US",
+      "og:description": "Discover the natural, potent relief of our Ginger Rescue® Lozenges. Crafted for digestive comfort, these lozenges blend a high dose of fresh ginger with a boost of red ginger extract.",
+      "og:url": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+      "og:site_name": "The Ginger People US",
+      "og:image": "https://gingerpeople.com/wp-content/uploads/2023/12/90905_GingerRescueWalmart_hard_lozenges_V1-01_FRONT-e1731458548943.png",
+      "og:image:width": "753",
+      "og:image:height": "800",
+      "og:image:type": "image/png"
+    },
+    "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+            "url": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+            "name": "Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg - The Ginger People US",
+            "isPartOf": {
+              "@id": "https://gingerpeople.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/#primaryimage"
+            },
+            "image": {
+              "@id": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/#primaryimage"
+            },
+            "thumbnailUrl": "https://gingerpeople.com/wp-content/uploads/2023/12/90905_GingerRescueWalmart_hard_lozenges_V1-01_FRONT-e1731458548943.png",
+            "datePublished": "2023-12-04T19:30:58+00:00",
+            "dateModified": "2026-05-04T20:20:10+00:00",
+            "description": "Discover the natural, potent relief of our Ginger Rescue® Lozenges. Crafted for digestive comfort, these lozenges blend a high dose of fresh ginger with a boost of red ginger extract.",
+            "breadcrumb": {
+              "@id": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/#primaryimage",
+            "url": "https://gingerpeople.com/wp-content/uploads/2023/12/90905_GingerRescueWalmart_hard_lozenges_V1-01_FRONT-e1731458548943.png",
+            "contentUrl": "https://gingerpeople.com/wp-content/uploads/2023/12/90905_GingerRescueWalmart_hard_lozenges_V1-01_FRONT-e1731458548943.png",
+            "width": 753,
+            "height": 800
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://gingerpeople.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Products",
+                "item": "https://gingerpeople.com/products/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://gingerpeople.com/#website",
+            "url": "https://gingerpeople.com/",
+            "name": "The Ginger People US",
+            "description": "Ginger and Turmeric Products",
+            "publisher": {
+              "@id": "https://gingerpeople.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://gingerpeople.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://gingerpeople.com/#organization",
+            "name": "The Ginger People",
+            "url": "https://gingerpeople.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://gingerpeople.com/#/schema/logo/image/",
+              "url": "https://gingerpeople.com/wp-content/uploads/2021/08/Logo_stacked_tag.png",
+              "contentUrl": "https://gingerpeople.com/wp-content/uploads/2021/08/Logo_stacked_tag.png",
+              "width": 1200,
+              "height": 1017,
+              "caption": "The Ginger People"
+            },
+            "image": {
+              "@id": "https://gingerpeople.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/GINGERPEOPLE/",
+              "https://x.com/thegingerpeople",
+              "https://instagram.com/the_ginger_people",
+              "https://www.linkedin.com/company/the-ginger-people",
+              "https://www.pinterest.com/gingerpeople/"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elements": [
+    {
+      "role": "a",
+      "text": "NORTH AMERICA",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/",
+      "bbox": [
+        153,
+        16,
+        99,
+        23
+      ]
+    },
+    {
+      "role": "a",
+      "text": "EUROPE",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://eu.gingerpeople.com/",
+      "bbox": [
+        262,
+        16,
+        54,
+        23
+      ]
+    },
+    {
+      "role": "a",
+      "text": "ASIA PACIFIC",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://au.gingerpeople.com/",
+      "bbox": [
+        325,
+        16,
+        79,
+        23
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on Instagram",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.instagram.com/the_ginger_people/",
+      "bbox": [
+        1264,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on Facebook",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.facebook.com/GINGERPEOPLE/",
+      "bbox": [
+        1294,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on LinkedIn",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://www.linkedin.com/company/the-ginger-people",
+      "bbox": [
+        1324,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/",
+      "bbox": [
+        533,
+        68,
+        300,
+        73
+      ]
+    },
+    {
+      "role": "a",
+      "text": "PRODUCTS",
+      "visible": true,
+      "aboveFold": true,
+      "href": "/the-ginger-people-products/",
+      "bbox": [
+        263,
+        141,
+        112,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "BULK INGREDIENTS",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/ingredients/",
+      "bbox": [
+        397,
+        141,
+        185,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "RECIPES",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/our-recipes/",
+      "bbox": [
+        604,
+        141,
+        93,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "ABOUT",
+      "visible": true,
+      "aboveFold": true,
+      "href": "#",
+      "bbox": [
+        719,
+        141,
+        81,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "BLOG",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/health-blog/",
+      "bbox": [
+        822,
+        141,
+        70,
+        54
+      ]
+    },
+    {
+      "role": "a",
+      "text": "WHERE TO BUY",
+      "visible": true,
+      "aboveFold": true,
+      "href": "https://gingerpeople.com/where-to-buy-the-ginger-people-products/",
+      "bbox": [
+        915,
+        141,
+        150,
+        54
+      ]
+    },
+    {
+      "role": "button",
+      "text": "90905_Target.com",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        198,
+        813,
+        100,
+        100
+      ]
+    },
+    {
+      "role": "button",
+      "text": "90905-Lifestyle-BagSpilling",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        304,
+        813,
+        100,
+        100
+      ]
+    },
+    {
+      "role": "button",
+      "text": "90905 Ginger Rescue Hard Ginger Lozenges Fresh Ginger",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        410,
+        813,
+        100,
+        100
+      ]
+    },
+    {
+      "role": "button",
+      "text": "90905_EssentialContent_GingerLozenges_v1-3",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        516,
+        813,
+        100,
+        100
+      ]
+    },
+    {
+      "role": "button",
+      "text": "90905_EssentialContent_GingerLozenges_v1-5",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        622,
+        813,
+        100,
+        100
+      ]
+    },
+    {
+      "role": "button",
+      "text": "90905 Ginger Rescue Hard Ginger Lozenges Travel Backpack",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        728,
+        813,
+        100,
+        100
+      ]
+    },
+    {
+      "role": "button",
+      "text": "90905_EssentialContent_GingerLozenges_v1-6 v2",
+      "visible": true,
+      "aboveFold": true,
+      "bbox": [
+        834,
+        813,
+        100,
+        100
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Walmart.com.",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://www.walmart.com/ip/The-Ginger-People-Ginger-Rescue-Hard-Lozenges-Morning-Sickness-Nausea-Upset-Stomach-Mild-Gas-Indigestion-3oz/5257038357",
+      "bbox": [
+        827,
+        1071,
+        96,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "LEARN MORE ABOUT THE POWER OF RED GINGER​ >",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/the-magic-of-red-ginger-indonesias-super-spice/",
+      "bbox": [
+        699,
+        1115,
+        419,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Show more",
+      "visible": true,
+      "aboveFold": false,
+      "href": "#",
+      "bbox": [
+        938,
+        1883,
+        78,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Show more",
+      "visible": true,
+      "aboveFold": false,
+      "href": "#",
+      "bbox": [
+        1120,
+        2032,
+        78,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Show more",
+      "visible": true,
+      "aboveFold": false,
+      "href": "#",
+      "bbox": [
+        1080,
+        2182,
+        78,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/why-ginger-and-turmeric-are-herbs-of-the-year/",
+      "bbox": [
+        162,
+        2459,
+        282,
+        176
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Why Ginger and Turmeric Are Herbs of the Year",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/why-ginger-and-turmeric-are-herbs-of-the-year/",
+      "bbox": [
+        162,
+        2666,
+        239,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "READ MORE",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/why-ginger-and-turmeric-are-herbs-of-the-year/",
+      "bbox": [
+        162,
+        2894,
+        92,
+        17
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-sourcing/",
+      "bbox": [
+        542,
+        2459,
+        282,
+        176
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Ginger Sourcing. Why Not Hawaii?",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-sourcing/",
+      "bbox": [
+        542,
+        2666,
+        281,
+        19
+      ]
+    },
+    {
+      "role": "a",
+      "text": "READ MORE",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-sourcing/",
+      "bbox": [
+        542,
+        2982,
+        92,
+        17
+      ]
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/boost-your-glp-1-naturally-the-power-of-ginger-turmeric/",
+      "bbox": [
+        922,
+        2459,
+        282,
+        176
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Boost Your GLP-1 Naturally: The Power of Ginger & Turmeric",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/boost-your-glp-1-naturally-the-power-of-ginger-turmeric/",
+      "bbox": [
+        922,
+        2666,
+        263,
+        39
+      ]
+    },
+    {
+      "role": "a",
+      "text": "READ MORE",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/boost-your-glp-1-naturally-the-power-of-ginger-turmeric/",
+      "bbox": [
+        922,
+        2975,
+        92,
+        17
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Our Story",
+      "visible": true,
+      "aboveFold": false,
+      "href": "/our-story",
+      "bbox": [
+        425,
+        3261,
+        60,
+        16
+      ]
+    },
+    {
+      "role": "a",
+      "text": "FAQ",
+      "visible": true,
+      "aboveFold": false,
+      "href": "/faqs/",
+      "bbox": [
+        425,
+        3288,
+        29,
+        16
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Contact Us",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/contact-us/",
+      "bbox": [
+        425,
+        3315,
+        67,
+        16
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Wholesale & Trade",
+      "visible": true,
+      "aboveFold": false,
+      "href": "/trade",
+      "bbox": [
+        425,
+        3342,
+        117,
+        16
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Privacy Policy",
+      "visible": true,
+      "aboveFold": false,
+      "href": "/privacy-policy/",
+      "bbox": [
+        425,
+        3369,
+        88,
+        16
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on Instagram",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://www.instagram.com/the_ginger_people/",
+      "bbox": [
+        1026,
+        3256,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on Facebook",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://www.facebook.com/GINGERPEOPLE/",
+      "bbox": [
+        1056,
+        3256,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "a",
+      "text": "Follow on LinkedIn",
+      "visible": true,
+      "aboveFold": false,
+      "href": "https://www.linkedin.com/company/the-ginger-people",
+      "bbox": [
+        1086,
+        3256,
+        32,
+        32
+      ]
+    },
+    {
+      "role": "form",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "name": "mc-embedded-subscribe-form",
+      "bbox": [
+        309,
+        3699,
+        748,
+        70
+      ]
+    },
+    {
+      "role": "input",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "type": "email",
+      "name": "EMAIL",
+      "placeholder": "email address",
+      "bbox": [
+        319,
+        3709,
+        422,
+        40
+      ]
+    },
+    {
+      "role": "input",
+      "text": "",
+      "visible": true,
+      "aboveFold": false,
+      "type": "text",
+      "name": "b_14e55fada886188f777808290_40c3d7520b",
+      "bbox": [
+        -4691,
+        3759,
+        220,
+        31
+      ]
+    },
+    {
+      "role": "input",
+      "text": "Subscribe",
+      "visible": true,
+      "aboveFold": false,
+      "type": "submit",
+      "name": "subscribe",
+      "bbox": [
+        763,
+        3712,
+        255,
+        40
+      ]
+    },
+    {
+      "role": "a",
+      "text": "NORTH AMERICA",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/"
+    },
+    {
+      "role": "a",
+      "text": "EUROPE",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://eu.gingerpeople.com/"
+    },
+    {
+      "role": "a",
+      "text": "AUSTRALIA",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://au.gingerpeople.com/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/the-ginger-people-products/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/gin-gins/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-rescue-tablets-lozenges/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-rescue-ginger-shots/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-and-turmeric-juice/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-soother-gingerade/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-pantry-baking/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/ginger-pantry-cooking/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/sauces/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/specialty-deli/"
+    },
+    {
+      "role": "a",
+      "text": "",
+      "visible": false,
+      "aboveFold": false,
+      "href": "https://gingerpeople.com/our-story/"
+    }
+  ],
+  "cro_signals": {
+    "price": {
+      "present": false
+    },
+    "add_to_cart": {
+      "present": false
+    },
+    "reviews": {
+      "present": true,
+      "value": "3 reviews"
+    },
+    "trust_badges": {
+      "present": true,
+      "items": [
+        "#1 SOURCE For ginger and turmeric products"
+      ]
+    },
+    "search": {
+      "present": true
+    },
+    "promo_bar": {
+      "present": false
+    },
+    "primary_cta": {
+      "present": true,
+      "text": "WHERE TO BUY"
+    }
+  },
+  "text_blocks": [
+    {
+      "role": "h1",
+      "text": "Ginger Rescue® Digestive Wellness Lozenges, Regular Strength 425mg"
+    },
+    {
+      "role": "h3",
+      "text": "GINGER RESCUE® GINGER LOZENGES"
+    },
+    {
+      "role": "h3",
+      "text": "NEXT >"
+    },
+    {
+      "role": "h1",
+      "text": "GINGER RESCUE® DIGESTIVE WELLNESS LOZENGES"
+    },
+    {
+      "role": "h3",
+      "text": "Regular Strength – 425mg"
+    },
+    {
+      "role": "h3",
+      "text": "PRODUCT DETAILS"
+    },
+    {
+      "role": "h3",
+      "text": "NUTRITIONAL INFO"
+    },
+    {
+      "role": "h3",
+      "text": "BLOG"
+    },
+    {
+      "role": "h3",
+      "text": "Why Ginger and Turmeric Are Herbs of the Year"
+    },
+    {
+      "role": "h3",
+      "text": "Ginger Sourcing. Why Not Hawaii?"
+    },
+    {
+      "role": "h3",
+      "text": "Boost Your GLP-1 Naturally: The Power of Ginger & Turmeric"
+    },
+    {
+      "role": "h3",
+      "text": "LEARN MORE"
+    }
+  ],
+  "content": "GINGER RESCUE® GINGER LOZENGES NEXT > GINGER RESCUE® DIGESTIVE WELLNESS LOZENGES Regular Strength – 425mg Discover the natural and powerful relief of our Ginger Rescue® Digestive Wellness Lozenges. Crafted for digestive comfort, these lozenges blend 425mg fresh ginger with a potent boost of red ginger extract. A convenient, drug-free solution to common stomach ailments. We think it tastes pretty great, Ginger Content: 425mg fresh ginger boosted with 16mg red ginger extract Targeted digestive relief for morning sickness and nausea, motion sickness, occasional upset stomach, mild gas and indigestion* No artificial ingredients Drug-Free | Gluten Free | Vegan | Non-GMO Individually wrapped for convenience and travel Crafted from sustainably farmed ginger and guided by our zero-waste process, we use every part of the fresh ginger rhizome — peel, fiber and all—to capture its full flavor, warmth and health benefits while minimizing waste Available in the digestive wellness section at Walmart and online at Amazon and Walmart.com. LEARN MORE ABOUT THE POWER OF RED GINGER​ > PRODUCT DETAILS NUTRITIONAL INFO MEET LIFESAVER KNOBS Navigate the high seas of indigestion with Lifesaver Knobs, your go-to for tranquil waters. With his vast experience on rough seas, Lifesaver Knobs helps calm stormy bellies and offers a passage of smooth sailing. Embark on a digestive wellness voyage and ride the wave of ginger comfort. Don’t leave home without them I love the soft ginger chews as they are pretty powerful. The hard lozenges are worth it as well, I think it dependsShow more Works for Gut Issues, Cramps, Indigestion, and Bloating! Soothing and Tasty. I ordered both the hard lozenges and the soft lozenges. As someone who struggles with gut issues and frequent indigestion, these are perfectSh",
+  "screenshots": [
+    "pdp-ginger-rescue-hard-ginger-lozenges/screenshots/pdp-ginger-rescue-hard-ginger-lozenges-fullpage.png",
+    "pdp-ginger-rescue-hard-ginger-lozenges/screenshots/pdp-ginger-rescue-hard-ginger-lozenges-hero.png"
+  ],
+  "network": {
+    "nav_timing_ms": 7494,
+    "requests": 86,
+    "redirects": [],
+    "security_headers": {},
+    "responses": [
+      {
+        "url": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2021/01/GP_Logo_HR-300x73.png",
+        "status": 200
+      },
+      {
+        "url": "https://lets.shop/productFirstSnippet.js",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/nextend-smart-slider3-pro/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?ver=4a1c6405",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2023/12/90905_GingerRescueWalmart_hard_lozenges_V1-01_FRONT-1080x675.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/css/block-style-index.css?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900&subset=latin,latin-ext&display=swap",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/revslider/admin/includes/shortcode_generator/divi/styles/style.min.css?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/essential-grid/admin/includes/builders/gutenberg/build/index.css?ver=1752272180",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/divi-child/print.css?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-blog-extras/styles/style.min.css?ver=2.6.2",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=3.1.9.2",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/style-static-cpt.min.css?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2023/12/hard-loz-nut-fac.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/uploads/2023/12/Lifesaver_Knobs1-e1704845640238-300x212.png",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.local.js?ver=1.9.3",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/css/frontend.css?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-social-sharing-buttons/styles/style.min.css?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/styles/style.min.css?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/formidable/css/formidableforms1.css?ver=682153",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-social-sharing-buttons/includes/assets/css/style.min.css?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/divi-child/style.css?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/styles/light-box-styles.css?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/frontend.js?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/essential-grid/public/assets/font/fontello/css/fontello.css?ver=3.1.9.2",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/styles/swiper.min.css?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/js.cookie.min.js?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/site-reviews/assets/styles/minimal.css?ver=8.0.11",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://cdn-images.mailchimp.com/embedcode/slim-10_7.css",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.35",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/css/dashicons.min.css?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/dg-carousel/scripts/swiper.min.js?ver=2.0.26",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/divi-child/custom.js",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js?ver=1.9.6",
+        "status": 200
+      },
+      {
+        "url": "https://static.addtoany.com/menu/page.js",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/site-reviews/assets/images/stars/default/star-full.svg",
+        "status": 200
+      },
+      {
+        "url": "https://assets.tumblr.com/share-button.js",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Saira+Condensed:wght@400;500;600&display=block",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/revslider/admin/includes/shortcode_generator/divi/scripts/frontend-bundle.min.js?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/divi-social-sharing-buttons/scripts/frontend-bundle.min.js?ver=1.0.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/salvattore.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/easypiechart.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=7.0",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/nextend-smart-slider3-pro/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js?ver=4a1c6405",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.6",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/nextend-smart-slider3-pro/Public/SmartSlider3/Widget/Thumbnail/Basic/Assets/dist/w-thumbnail-horizontal.min.js?ver=4a1c6405",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17",
+        "status": 200
+      },
+      {
+        "url": "https://gingerpeople.com/wp-content/plugins/nextend-smart-slider3-pro/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js?ver=4a1c6405",
+        "status": 200
+      }
+    ]
+  },
+  "console_errors": [
+    "Access to script at 'https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to font at 'https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DQ.woff2' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to font at 'https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://hlc7l6v5w6.execute-api.us-west-2.amazonaws.com/prod/languageElements?locale=en-US' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://hlc7l6v5w6.execute-api.us-west-2.amazonaws.com/prod/languageElements?locale=en' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to script at 'https://static.addtoany.com/menu/modules/core.bycdb5qo.js' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: It does not have HTTP ok status.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://hlc7l6v5w6.execute-api.us-west-2.amazonaws.com/prod/languageElements?locale=en' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://hlc7l6v5w6.execute-api.us-west-2.amazonaws.com/prod/languageElements?locale=en-US' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to XMLHttpRequest at 'https://lets.shop/locators/1139/4409/4409.json' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to fetch at 'https://hlc7l6v5w6.execute-api.us-west-2.amazonaws.com/prod/languageElements?locale=en-US' from origin 'https://gingerpeople.com' has been blocked by CORS policy: Request header field upgrade-insecure-requests is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED"
+  ]
+}

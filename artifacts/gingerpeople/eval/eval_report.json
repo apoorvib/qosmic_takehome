@@ -1,0 +1,357 @@
+{
+  "store": "gingerpeople",
+  "store_root": "artifacts\\gingerpeople",
+  "overall_score": 100,
+  "acceptance": {
+    "passes": true,
+    "threshold": 80,
+    "critical_dimensions": [
+      "evidence_resolvability",
+      "technical_truthfulness",
+      "store_specificity"
+    ]
+  },
+  "layer1": {
+    "ok": true,
+    "errors": []
+  },
+  "dimension_scores": {
+    "structure_compliance": {
+      "weight": 15,
+      "score": 15,
+      "failures": []
+    },
+    "evidence_resolvability": {
+      "weight": 15,
+      "score": 15,
+      "failures": []
+    },
+    "evidence_claim_coherence": {
+      "weight": 20,
+      "score": 20,
+      "failures": []
+    },
+    "pillar_coverage": {
+      "weight": 10,
+      "score": 10,
+      "failures": []
+    },
+    "store_specificity": {
+      "weight": 15,
+      "score": 15,
+      "failures": []
+    },
+    "technical_truthfulness": {
+      "weight": 10,
+      "score": 10,
+      "failures": []
+    },
+    "competitor_grounding": {
+      "weight": 5,
+      "score": 5,
+      "failures": []
+    },
+    "report_quality": {
+      "weight": 10,
+      "score": 10,
+      "failures": []
+    }
+  },
+  "judge_tasks": [
+    {
+      "id": "judge-experiment-1",
+      "type": "experiment",
+      "object_path": "experiments[0]",
+      "exp_id": "exp-37868b457e66",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-gin-gins-original-ginger-chews/screenshots/pdp-gin-gins-original-ginger-chews-fullpage.png",
+          "triggering_signal": "pdp-gin-gins-original-ginger-chews.cro_signals.add_to_cart.present=false",
+          "signal_type": "cro_signals",
+          "store_profile_ref": "family:GIN GINS; job:purchase-clarity"
+        },
+        "hypothesis": "The GIN GINS PDP creates strong intent (86 reviews, 'Voted Best Candy', 10% fresh ginger) but the buying area is ambiguous text with no price, add-to-cart, or retailer module \u2014 so high-intent shoppers have no clear next step.",
+        "primary_change": "Add a persistent 'Choose how to buy' box under the product title: 'Buy online', 'Find near me', plus compact retailer logos."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-2",
+      "type": "experiment",
+      "object_path": "experiments[1]",
+      "exp_id": "exp-36a71e50f2e5",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "page-where-to-buy-the-ginger-people-products/screenshots/page-where-to-buy-the-ginger-people-products-fullpage.png",
+          "triggering_signal": "visual_findings.vf-wtb-broken",
+          "signal_type": "visual",
+          "store_profile_ref": "content_theme:where-to-buy; segment:functional-relief"
+        },
+        "hypothesis": "The most explicit purchase-intent nav link resolves to an error banner and blog cards with no store locator or retailer list, so every PDP that says 'find it locally' is weaker than it could be.",
+        "primary_change": "Replace the body with a ZIP/store locator, 'Shop online' retailer cards, product-family filters, and a 'Can't find it? Tell us your ZIP' capture."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-3",
+      "type": "experiment",
+      "object_path": "experiments[2]",
+      "exp_id": "exp-983f6011ec3a",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "home/screenshots/home-hero.png",
+          "triggering_signal": "visual_findings.vf-home-single-cta",
+          "signal_type": "visual",
+          "store_profile_ref": "segment:candy-snacker; job:nausea"
+        },
+        "hypothesis": "A single broad entrance asks too much of a first-time visitor when the buyer split is functional relief vs candy vs cooking vs wholesale.",
+        "primary_change": "Rebuild the first screen into mission cards: 'Settle my stomach', 'Find ginger candy', 'Cook with ginger', 'Buy for my business', each linking to the right category."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-4",
+      "type": "experiment",
+      "object_path": "experiments[3]",
+      "exp_id": "exp-7a69a513f9f6",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-ginger-rescue-hard-ginger-lozenges/screenshots/pdp-ginger-rescue-hard-ginger-lozenges-fullpage.png",
+          "triggering_signal": "visual_findings.vf-rescue-no-bundle",
+          "signal_type": "visual",
+          "store_profile_ref": "family:Ginger Rescue; job:travel/motion-sickness"
+        },
+        "hypothesis": "Travel/motion-sickness is one of the highest-intent jobs, but the Ginger Rescue lozenge and tablet formats are merchandised separately with no kit.",
+        "primary_change": "Launch a 'Travel Stomach Rescue Kit' bundling the lozenge + chewable tablet formats, promoted on Ginger Rescue PDPs and a travel-nausea page."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-5",
+      "type": "experiment",
+      "object_path": "experiments[4]",
+      "exp_id": "exp-1b3fb2cdfea3",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "page-gin-gins/screenshots/page-gin-gins-fullpage.png",
+          "triggering_signal": "visual_findings.vf-gingins-no-sampler",
+          "signal_type": "visual",
+          "store_profile_ref": "family:GIN GINS; segment:candy-snacker"
+        },
+        "hypothesis": "First-time candy shoppers face a long flavor list with no low-risk way to try several, suppressing basket size.",
+        "primary_change": "Launch a 'GIN GINS Flavor Tour' sampler spanning Original, Mandarin, Lemon, Spicy Apple and Ginger Spice Drops."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-6",
+      "type": "experiment",
+      "object_path": "experiments[5]",
+      "exp_id": "exp-18102ea2895e",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "page-boost-your-glp-1-naturally-the-power-of-/screenshots/page-boost-your-glp-1-naturally-the-power-of--fullpage.png",
+          "triggering_signal": "visual_findings.vf-glp1-no-routine",
+          "signal_type": "visual",
+          "store_profile_ref": "job:GLP-1 side-effects; content_theme:GLP-1"
+        },
+        "hypothesis": "The GLP-1 article states nausea affects up to 50% of GLP-1 patients and recommends ginger/turmeric formats, but shoppers must assemble the routine themselves.",
+        "primary_change": "Create a 'GLP-1 Ginger + Turmeric Daily Support Routine' merchandising chews, lozenges and turmeric juice with reorder guidance, placed in the article."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-7",
+      "type": "experiment",
+      "object_path": "experiments[6]",
+      "exp_id": "exp-49c9c8d5b7ce",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "pdp-gin-gins-original-ginger-chews/screenshots/pdp-gin-gins-original-ginger-chews-fullpage.png",
+          "triggering_signal": "visual_findings.vf-pdp-no-reorder",
+          "signal_type": "visual",
+          "store_profile_ref": "family:GIN GINS; segment:functional-relief"
+        },
+        "hypothesis": "These are consumable products bought for ongoing relief, but there is no path to set a routine or reorder reminder, so repeat demand is left to memory.",
+        "primary_change": "Add an 'Add to my ginger routine' opt-in on PDPs that emails reorder reminders and a retailer/online link for the chosen formats."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-8",
+      "type": "experiment",
+      "object_path": "experiments[7]",
+      "exp_id": "exp-8e982fbe6a42",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "page-the-ginger-people-products/screenshots/page-the-ginger-people-products-fullpage.png",
+          "triggering_signal": "visual_findings.vf-products-clutter",
+          "signal_type": "visual",
+          "store_profile_ref": "job:nausea; job:cooking"
+        },
+        "hypothesis": "The catalog asks shoppers to decode product names instead of shopping their job; need language exists but is buried in dense grids.",
+        "primary_change": "Create '/find-your-ginger/' with prompts (nausea, travel, cooking, daily wellness, candy) that route to a recommended family with proof and buy/find choices."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-9",
+      "type": "experiment",
+      "object_path": "experiments[8]",
+      "exp_id": "exp-d5b9f2e0fd37",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "page-boost-your-glp-1-naturally-the-power-of-/screenshots/page-boost-your-glp-1-naturally-the-power-of--fullpage.png",
+          "triggering_signal": "visual_findings.vf-glp1-health-pattern",
+          "signal_type": "visual",
+          "store_profile_ref": "job:morning sickness; content_theme:health blog"
+        },
+        "hypothesis": "Morning-sickness intent is high-anxiety and disperses across blog, category and PDPs; the existing health-content pattern could anchor one compliant destination.",
+        "primary_change": "Create '/morning-sickness-ginger/' mirroring the health-content layout with testimonials, FAQ, 'ask your clinician' language and Ginger Rescue / GIN GINS choices."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-experiment-10",
+      "type": "experiment",
+      "object_path": "experiments[9]",
+      "exp_id": "exp-ea80b9088891",
+      "checks": [
+        "evidence_supports_hypothesis",
+        "recommendation_is_store_specific"
+      ],
+      "input_refs": {
+        "evidence": {
+          "screenshot": "cart/screenshots/cart-fullpage.png",
+          "triggering_signal": "cart.network.responses[].status=404",
+          "signal_type": "network",
+          "store_profile_ref": "segment:functional-relief; job:purchase-clarity"
+        },
+        "hypothesis": "The /cart URL returns a branded 404. Even for a retailer-routed brand it is a common destination for returning users, old links, tracking tools and partner referrals \u2014 so high-intent sessions silently die.",
+        "primary_change": "Replace the /cart 404 with a purchase-recovery page: 'Continue shopping', 'Find a store', 'Shop online retailers' and support links."
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    },
+    {
+      "id": "judge-executive-summary",
+      "type": "executive_summary",
+      "object_path": "executive_summary",
+      "checks": [
+        "summary_faithful_to_synthesis_and_top_leaks"
+      ],
+      "input_refs": {
+        "headline": "Ginger People audit \u2014 the proof is strong; the buy path is the constraint",
+        "themes": [
+          {
+            "title": "The purchase handoff is leaking demand",
+            "summary": "Strong product proof (86 reviews, World's #1 selling ginger candy, 10% fresh ginger) but no buying box on PDPs, a broken Where To Buy, and a /cart 404 mean high-intent sessions have no clear next step.",
+            "supporting_exp_ids": [
+              "exp-37868b457e66",
+              "exp-36a71e50f2e5",
+              "exp-ea80b9088891"
+            ]
+          },
+          {
+            "title": "A broad catalog asks shoppers to decode product names",
+            "summary": "Homepage and grids lead with SKUs, not jobs; mission cards and a need quiz would route relief, candy, and cooking shoppers faster.",
+            "supporting_exp_ids": [
+              "exp-983f6011ec3a",
+              "exp-8e982fbe6a42"
+            ]
+          },
+          {
+            "title": "The content moat is under-commercialized",
+            "summary": "GLP-1 and health education can become reorderable routines and condition landing pages, and the format range supports kits and samplers.",
+            "supporting_exp_ids": [
+              "exp-18102ea2895e",
+              "exp-d5b9f2e0fd37",
+              "exp-7a69a513f9f6",
+              "exp-1b3fb2cdfea3"
+            ]
+          }
+        ]
+      },
+      "expected_output_schema": {
+        "score": "0-100 integer",
+        "rationale": "short string",
+        "failing_object_paths": "array of object-path strings"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "store": "zenrojas.com",
+  "niche": "premium organic loose-leaf tea",
+  "commerce_model": "direct",
+  "families": [
+    {
+      "name": "Functional teas",
+      "type": "tea",
+      "products": [
+        "Organic Sleep Tea",
+        "Heartburn Organic Tea",
+        "Bodyguard Organic Tea"
+      ]
+    },
+    {
+      "name": "Classic teas",
+      "type": "tea",
+      "products": [
+        "Premium Sencha Green Tea",
+        "Organic Black Tea"
+      ]
+    },
+    {
+      "name": "Samplers",
+      "type": "tea",
+      "products": [
+        "Tea Bag Samplers",
+        "Loose Leaf Samplers"
+      ]
+    },
+    {
+      "name": "Accessories",
+      "type": "accessory",
+      "products": [
+        "Zen Rojas Mug",
+        "Tea Infuser",
+        "Tea Bags"
+      ]
+    }
+  ],
+  "jobs_to_be_done": [
+    "better sleep",
+    "digestive relief/heartburn",
+    "immunity",
+    "daily ritual/relaxation",
+    "gifting",
+    "discovery/trying"
+  ],
+  "segments": [
+    "wellness-seeker",
+    "tea-enthusiast",
+    "gift-buyer",
+    "ritual-seeker"
+  ],
+  "proof_points": [
+    "organic",
+    "premium loose leaf",
+    "Find Your Moment of Zen",
+    "founder Jesse Rojas story",
+    "free shipping on $50+"
+  ],
+  "content_themes": [
+    "tea education",
+    "founder/blog",
+    "ambassador program",
+    "ritual"
+  ],
+  "brand_voice": "calm, premium, mindful wellness"
+}

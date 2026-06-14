@@ -1,0 +1,244 @@
+{
+  "experiments": [
+    {
+      "exp_id": "exp-66a199e63076",
+      "title": "Trigger the email popup on exit-intent instead of blocking the hero on load",
+      "pillar": "Conversion",
+      "affected_surface": "home",
+      "url": "https://zenrojas.com/",
+      "evidence": {
+        "screenshot": "home/screenshots/home-hero.png",
+        "triggering_signal": "visual_findings.vf-intrusive-popup",
+        "signal_type": "visual",
+        "store_profile_ref": "segment:wellness-seeker; ritual"
+      },
+      "hypothesis": "A full-screen subscribe popup overlays the hero on load across the homepage and PDPs, taxing the first impression before a visitor sees the product or value proposition.",
+      "primary_change": "Switch the email popup to fire on exit-intent or after ~20s/scroll, and keep the reward offer; never overlay the hero on first load.",
+      "primary_kpi": "Bounce rate / homepage engagement",
+      "decision_rule": "Ship if Bounce rate / homepage engagement improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 5,
+        "high": 12,
+        "unit": "%"
+      },
+      "confidence": 78,
+      "confidence_basis": "strong inference"
+    },
+    {
+      "exp_id": "exp-42f57ce0b20a",
+      "title": "Add visible social proof and trust badges to PDPs",
+      "pillar": "Conversion",
+      "affected_surface": "pdp-organicsleeptea",
+      "url": "https://zenrojas.com/products/organicsleeptea",
+      "evidence": {
+        "screenshot": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+        "triggering_signal": "pdp-organicsleeptea.cro_signals.trust_badges.present=false",
+        "signal_type": "cro_signals",
+        "store_profile_ref": "proof:organic; segment:wellness-seeker"
+      },
+      "hypothesis": "The Organic Sleep Tea PDP has a review widget but no visible review count, rating, organic-certification badge, or guarantee near the buy box, so a premium-priced product lacks reassurance at the decision point.",
+      "primary_change": "Surface star rating + review count, an organic/quality badge, and a satisfaction guarantee directly under the price and add-to-cart.",
+      "primary_kpi": "Add-to-cart / PDP conversion rate",
+      "decision_rule": "Ship if Add-to-cart / PDP conversion rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 8,
+        "high": 15,
+        "unit": "%"
+      },
+      "confidence": 82,
+      "confidence_basis": "direct structural absence"
+    },
+    {
+      "exp_id": "exp-6d09faf9a241",
+      "title": "Add benefit-led navigation to collections",
+      "pillar": "Conversion",
+      "affected_surface": "collection-teas",
+      "url": "https://zenrojas.com/collections/teas",
+      "evidence": {
+        "screenshot": "collection-teas/screenshots/collection-teas-fullpage.png",
+        "triggering_signal": "visual_findings.vf-collection-no-benefit-filter",
+        "signal_type": "visual",
+        "store_profile_ref": "job:better sleep; job:digestive relief/heartburn"
+      },
+      "hypothesis": "Collections list teas by name with no benefit filters, asking shoppers to decode products rather than shop their goal (sleep, digestion, immunity).",
+      "primary_change": "Add benefit chips/filters ('For sleep', 'For digestion', 'For immunity', 'Daily ritual') and benefit-led section headers to the collection.",
+      "primary_kpi": "Collection click-through to PDP",
+      "decision_rule": "Ship if Collection click-through to PDP improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 6,
+        "high": 12,
+        "unit": "%"
+      },
+      "confidence": 74,
+      "confidence_basis": "strong inference"
+    },
+    {
+      "exp_id": "exp-dd40992149d1",
+      "title": "Launch a tea + accessory ritual bundle",
+      "pillar": "AOV",
+      "affected_surface": "collection-teas",
+      "url": "https://zenrojas.com/collections/teas",
+      "evidence": {
+        "screenshot": "collection-teas/screenshots/collection-teas-fullpage.png",
+        "triggering_signal": "visual_findings.vf-no-ritual-bundle",
+        "signal_type": "visual",
+        "store_profile_ref": "family:Accessories; ritual"
+      },
+      "hypothesis": "Teas and accessories (mug, infuser, tea bags) are sold separately; the brand's 'ritual' positioning is a natural fit for a starter kit that lifts basket size.",
+      "primary_change": "Create a 'Zen Ritual Starter Kit' bundling a featured tea + mug + infuser at a modest bundle discount, merchandised on home and collections.",
+      "primary_kpi": "Average order value",
+      "decision_rule": "Ship if Average order value improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 8,
+        "high": 16,
+        "unit": "%"
+      },
+      "confidence": 71,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-44b11a3e464c",
+      "title": "Add 'complete your ritual' cross-sell to PDPs",
+      "pillar": "AOV",
+      "affected_surface": "pdp-organicsleeptea",
+      "url": "https://zenrojas.com/products/organicsleeptea",
+      "evidence": {
+        "screenshot": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+        "triggering_signal": "visual_findings.vf-pdp-no-crosssell",
+        "signal_type": "visual",
+        "store_profile_ref": "family:Samplers; family:Accessories"
+      },
+      "hypothesis": "The PDP has no cross-sell near the buy box, missing the obvious accessory and sampler attach for a ritual product.",
+      "primary_change": "Add a 'Complete your ritual' module under add-to-cart suggesting an infuser, mug, or a complementary sampler.",
+      "primary_kpi": "Average order value / units per order",
+      "decision_rule": "Ship if Average order value / units per order improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 6,
+        "high": 12,
+        "unit": "%"
+      },
+      "confidence": 71,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-bb38b538987f",
+      "title": "Offer subscribe-and-save on consumable teas",
+      "pillar": "Retention",
+      "affected_surface": "pdp-organicsleeptea",
+      "url": "https://zenrojas.com/products/organicsleeptea",
+      "evidence": {
+        "screenshot": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+        "triggering_signal": "visual_findings.vf-pdp-no-subscription",
+        "signal_type": "visual",
+        "store_profile_ref": "job:daily ritual/relaxation; segment:wellness-seeker"
+      },
+      "hypothesis": "Tea is a repeat-consumption ritual product, but PDPs offer only one-time purchase, leaving recurring revenue and retention on the table.",
+      "primary_change": "Add a subscribe-and-save option (e.g. 10% off, monthly/bi-monthly) to consumable tea PDPs with easy management.",
+      "primary_kpi": "Subscription opt-in rate / repeat purchase rate",
+      "decision_rule": "Ship if Subscription opt-in rate / repeat purchase rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 7,
+        "high": 14,
+        "unit": "%"
+      },
+      "confidence": 74,
+      "confidence_basis": "strong inference"
+    },
+    {
+      "exp_id": "exp-71555c487d72",
+      "title": "Surface the Ambassador / loyalty program at key moments",
+      "pillar": "Retention",
+      "affected_surface": "home",
+      "url": "https://zenrojas.com/",
+      "evidence": {
+        "screenshot": "home/screenshots/home-fullpage.png",
+        "triggering_signal": "visual_findings.vf-ambassador-buried",
+        "signal_type": "visual",
+        "store_profile_ref": "content_theme:ambassador program; segment:tea-enthusiast"
+      },
+      "hypothesis": "The Ambassador Program is buried in the footer and never surfaced at purchase or post-purchase, so an existing loyalty asset goes unused.",
+      "primary_change": "Promote the Ambassador Program in the post-purchase flow, account area, and a homepage band, with a clear reward and share path.",
+      "primary_kpi": "Referral / repeat-customer rate",
+      "decision_rule": "Ship if Referral / repeat-customer rate improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 4,
+        "high": 9,
+        "unit": "%"
+      },
+      "confidence": 68,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-13ceb164e75c",
+      "title": "Build functional intent landing pages",
+      "pillar": "Acquisition",
+      "affected_surface": "content-weekly-blog",
+      "url": "https://zenrojas.com/blogs/weekly-blog",
+      "evidence": {
+        "screenshot": "content-weekly-blog/screenshots/content-weekly-blog-fullpage.png",
+        "triggering_signal": "visual_findings.vf-blog-uncommercialized",
+        "signal_type": "visual",
+        "store_profile_ref": "job:better sleep; job:immunity"
+      },
+      "hypothesis": "High-intent functional searches ('best organic tea for sleep', 'tea for heartburn') have no dedicated landing pages; the benefit content is buried in product copy and blog posts.",
+      "primary_change": "Create benefit landing pages (sleep, digestion, immunity) with the relevant teas, proof, FAQs and internal links from blog content.",
+      "primary_kpi": "Organic landing-page sessions and conversion",
+      "decision_rule": "Ship if Organic landing-page sessions and conversion improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 10,
+        "high": 20,
+        "unit": "%"
+      },
+      "confidence": 71,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-27c70334829a",
+      "title": "Commercialize the founder and education content",
+      "pillar": "Acquisition",
+      "affected_surface": "content-weekly-blog",
+      "url": "https://zenrojas.com/blogs/weekly-blog",
+      "evidence": {
+        "screenshot": "content-weekly-blog/screenshots/content-weekly-blog-fullpage.png",
+        "triggering_signal": "visual_findings.vf-founder-uncommercialized",
+        "signal_type": "visual",
+        "store_profile_ref": "proof:founder Jesse Rojas story; content_theme:tea education"
+      },
+      "hypothesis": "The founder/family story and tea-education content build trust but do not route readers to products or a brand-story shopping path.",
+      "primary_change": "Add product modules and 'shop the story' CTAs into the founder post and education articles, linking to relevant teas and samplers.",
+      "primary_kpi": "Content-attributed sessions to PDP",
+      "decision_rule": "Ship if Content-attributed sessions to PDP improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 5,
+        "high": 10,
+        "unit": "%"
+      },
+      "confidence": 70,
+      "confidence_basis": "pattern / best-practice"
+    },
+    {
+      "exp_id": "exp-786caca48c5c",
+      "title": "Reduce page weight and failed third-party scripts",
+      "pillar": "Performance",
+      "affected_surface": "collection-best-sellers",
+      "url": "https://zenrojas.com/collections/best-sellers",
+      "evidence": {
+        "screenshot": "collection-best-sellers/screenshots/collection-best-sellers-fullpage.png",
+        "triggering_signal": "visual_findings.vf-perf-heavy",
+        "signal_type": "visual",
+        "store_profile_ref": "segment:wellness-seeker; ritual"
+      },
+      "hypothesis": "Pages fire 200+ requests with ~20 console errors from failed third-party (shop.app) scripts, and the best-sellers collection took ~10s to load in capture — a real speed and reliability drag on conversion.",
+      "primary_change": "Audit and lazy-load imagery, defer/remove failing third-party scripts, and compress hero/product images to cut requests and load time.",
+      "primary_kpi": "Page load time (LCP) and bounce",
+      "decision_rule": "Ship if Page load time (LCP) and bounce improves without hurting site-wide conversion.",
+      "expected_lift": {
+        "low": 8,
+        "high": 18,
+        "unit": "%"
+      },
+      "confidence": 78,
+      "confidence_basis": "strong inference"
+    }
+  ]
+}

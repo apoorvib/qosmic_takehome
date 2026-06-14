@@ -1,0 +1,32 @@
+{
+  "headline": "Ginger People audit — the proof is strong; the buy path is the constraint",
+  "themes": [
+    {
+      "title": "The purchase handoff is leaking demand",
+      "summary": "Strong product proof (86 reviews, World's #1 selling ginger candy, 10% fresh ginger) but no buying box on PDPs, a broken Where To Buy, and a /cart 404 mean high-intent sessions have no clear next step.",
+      "supporting_exp_ids": [
+        "exp-37868b457e66",
+        "exp-36a71e50f2e5",
+        "exp-ea80b9088891"
+      ]
+    },
+    {
+      "title": "A broad catalog asks shoppers to decode product names",
+      "summary": "Homepage and grids lead with SKUs, not jobs; mission cards and a need quiz would route relief, candy, and cooking shoppers faster.",
+      "supporting_exp_ids": [
+        "exp-983f6011ec3a",
+        "exp-8e982fbe6a42"
+      ]
+    },
+    {
+      "title": "The content moat is under-commercialized",
+      "summary": "GLP-1 and health education can become reorderable routines and condition landing pages, and the format range supports kits and samplers.",
+      "supporting_exp_ids": [
+        "exp-18102ea2895e",
+        "exp-d5b9f2e0fd37",
+        "exp-7a69a513f9f6",
+        "exp-1b3fb2cdfea3"
+      ]
+    }
+  ]
+}

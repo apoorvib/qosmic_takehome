@@ -1,0 +1,41 @@
+{
+  "niche": "premium organic wellness tea",
+  "competitors": [
+    {
+      "name": "Pukka Herbs",
+      "domain": "pukkaherbs.com",
+      "positioning": "Organic herbal wellness teas",
+      "makes_easier": "Benefit-led navigation (sleep, detox, energy)",
+      "our_edge": "Loose-leaf premium ritual + founder story",
+      "pattern_to_adapt": "Benefit-first collection navigation and clear functional outcomes",
+      "source_url": "https://www.pukkaherbs.com/"
+    },
+    {
+      "name": "Traditional Medicinals",
+      "domain": "traditionalmedicinals.com",
+      "positioning": "Wellness teas with specific functional uses",
+      "makes_easier": "Condition-specific product discovery",
+      "our_edge": "Premium loose-leaf and a curated ritual experience",
+      "pattern_to_adapt": "Symptom/benefit landing pages with proof",
+      "source_url": "https://www.traditionalmedicinals.com/"
+    },
+    {
+      "name": "Vahdam Teas",
+      "domain": "vahdam.com",
+      "positioning": "Premium Indian-origin teas, direct-to-consumer",
+      "makes_easier": "Subscriptions, bundles, strong reviews/social proof",
+      "our_edge": "Tighter functional ritual focus and brand story",
+      "pattern_to_adapt": "Subscribe-and-save, gift bundles, prominent ratings",
+      "source_url": "https://www.vahdam.com/"
+    },
+    {
+      "name": "Art of Tea",
+      "domain": "artoftea.com",
+      "positioning": "Premium loose-leaf tea and accessories",
+      "makes_easier": "Tea + accessory bundles and starter kits",
+      "our_edge": "Functional wellness positioning and founder narrative",
+      "pattern_to_adapt": "Ritual starter kits pairing tea with brewing accessories",
+      "source_url": "https://www.artoftea.com/"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "store": "gingerpeople.com",
+  "niche": "ginger & turmeric functional foods + candy",
+  "commerce_model": "retailer-routed",
+  "families": [
+    {
+      "name": "GIN GINS",
+      "type": "candy",
+      "products": [
+        "Original Ginger Chews",
+        "Mandarin Orange",
+        "Lemon",
+        "Spicy Apple",
+        "Ginger Spice Drops",
+        "Boost Red Magic"
+      ]
+    },
+    {
+      "name": "Ginger Rescue",
+      "type": "lozenges/tablets",
+      "products": [
+        "Hard Ginger Lozenges",
+        "Chewable Ginger Tablets",
+        "Digestive Wellness Lozenges"
+      ]
+    },
+    {
+      "name": "Ginger Soother",
+      "type": "beverage",
+      "products": [
+        "Turmeric Gingerade"
+      ]
+    },
+    {
+      "name": "Fiji Ginger Juice",
+      "type": "juice",
+      "products": [
+        "Fiji Ginger Juice",
+        "Fiji Turmeric Juice"
+      ]
+    }
+  ],
+  "jobs_to_be_done": [
+    "nausea",
+    "travel/motion-sickness",
+    "GLP-1 side-effects",
+    "morning sickness",
+    "digestive wellness",
+    "cooking"
+  ],
+  "segments": [
+    "functional-relief",
+    "candy-snacker",
+    "cook",
+    "wholesale"
+  ],
+  "proof_points": [
+    "World's #1 selling ginger candy",
+    "86 reviews",
+    "10% fresh ginger",
+    "Voted Best Candy",
+    "#1 source for ginger and turmeric"
+  ],
+  "content_themes": [
+    "recipes",
+    "health blog",
+    "GLP-1",
+    "where-to-buy"
+  ],
+  "brand_voice": "warm, health-forward, ginger-specialist family brand"
+}

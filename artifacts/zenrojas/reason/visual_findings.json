@@ -1,0 +1,76 @@
+{
+  "findings": [
+    {
+      "id": "vf-intrusive-popup",
+      "observation": "A full-screen email-capture popup ('Subscribe to get a reward now / REVEAL REWARD') overlays the hero on load across homepage and PDPs, blocking the first impression and the product.",
+      "screenshot_ref": "home/screenshots/home-hero.png",
+      "region": "hero/overlay",
+      "severity": "high",
+      "pillar": "Conversion"
+    },
+    {
+      "id": "vf-collection-no-benefit-filter",
+      "observation": "Collection grids list teas by name with no benefit-led navigation (sleep / digestion / immunity), so shoppers must decode products instead of shopping their goal.",
+      "screenshot_ref": "collection-teas/screenshots/collection-teas-fullpage.png",
+      "region": "grid",
+      "severity": "medium",
+      "pillar": "Conversion"
+    },
+    {
+      "id": "vf-no-ritual-bundle",
+      "observation": "Teas and accessories (mug, infuser, tea bags) are sold separately; no 'ritual kit' bundles tea with brewing accessories.",
+      "screenshot_ref": "collection-teas/screenshots/collection-teas-fullpage.png",
+      "region": "grid",
+      "severity": "medium",
+      "pillar": "AOV"
+    },
+    {
+      "id": "vf-pdp-no-crosssell",
+      "observation": "PDP has no 'complete your ritual' cross-sell or sampler suggestion near the buy box.",
+      "screenshot_ref": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+      "region": "buy-box",
+      "severity": "medium",
+      "pillar": "AOV"
+    },
+    {
+      "id": "vf-pdp-no-subscription",
+      "observation": "Consumable tea PDP offers a one-time add-to-cart only; no subscribe-and-save / refill option for a repeat-consumption product.",
+      "screenshot_ref": "pdp-organicsleeptea/screenshots/pdp-organicsleeptea-fullpage.png",
+      "region": "buy-box",
+      "severity": "medium",
+      "pillar": "Retention"
+    },
+    {
+      "id": "vf-ambassador-buried",
+      "observation": "The Ambassador Program (a referral/loyalty asset) is buried in the footer and never surfaced at purchase or post-purchase moments.",
+      "screenshot_ref": "home/screenshots/home-fullpage.png",
+      "region": "footer",
+      "severity": "low",
+      "pillar": "Retention"
+    },
+    {
+      "id": "vf-blog-uncommercialized",
+      "observation": "Functional benefits (sleep, heartburn, immunity) live in product copy and blog but have no dedicated intent landing pages to capture search demand.",
+      "screenshot_ref": "content-weekly-blog/screenshots/content-weekly-blog-fullpage.png",
+      "region": "article-list",
+      "severity": "medium",
+      "pillar": "Acquisition"
+    },
+    {
+      "id": "vf-founder-uncommercialized",
+      "observation": "Strong founder/family story content (Jesse Rojas) is not connected to product modules or a brand-story shopping path.",
+      "screenshot_ref": "content-weekly-blog/screenshots/content-weekly-blog-fullpage.png",
+      "region": "article-list",
+      "severity": "low",
+      "pillar": "Acquisition"
+    },
+    {
+      "id": "vf-perf-heavy",
+      "observation": "Pages fire 200+ requests with ~20 console errors (failed shop.app third-party scripts); the best-sellers collection took ~10s to load in capture.",
+      "screenshot_ref": "collection-best-sellers/screenshots/collection-best-sellers-fullpage.png",
+      "region": "page",
+      "severity": "high",
+      "pillar": "Performance"
+    }
+  ]
+}

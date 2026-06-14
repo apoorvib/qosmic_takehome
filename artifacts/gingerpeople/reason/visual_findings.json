@@ -1,0 +1,76 @@
+{
+  "findings": [
+    {
+      "id": "vf-pdp-no-buybox",
+      "observation": "PDP buying area is plain text ('Buy online or find it in the candy aisle…') with no price, add-to-cart, or structured retailer module where the eye lands.",
+      "screenshot_ref": "pdp-gin-gins-original-ginger-chews/screenshots/pdp-gin-gins-original-ginger-chews-hero.png",
+      "region": "buy-box/above-fold",
+      "severity": "high",
+      "pillar": "Conversion"
+    },
+    {
+      "id": "vf-wtb-broken",
+      "observation": "Where To Buy shows an error banner ('There was something wrong!') and blog cards — no store locator, retailer list, or online-buying cards.",
+      "screenshot_ref": "page-where-to-buy-the-ginger-people-products/screenshots/page-where-to-buy-the-ginger-people-products-hero.png",
+      "region": "main",
+      "severity": "high",
+      "pillar": "Conversion"
+    },
+    {
+      "id": "vf-home-single-cta",
+      "observation": "Homepage leads with one product focus and a single 'WHERE TO BUY' route; no mission cards for the distinct buyer jobs (relief vs candy vs cooking).",
+      "screenshot_ref": "home/screenshots/home-hero.png",
+      "region": "hero",
+      "severity": "medium",
+      "pillar": "Conversion"
+    },
+    {
+      "id": "vf-products-clutter",
+      "observation": "All-products grid lists many SKUs by product name with no need-first grouping; shoppers must decode product names rather than shop a job.",
+      "screenshot_ref": "page-the-ginger-people-products/screenshots/page-the-ginger-people-products-fullpage.png",
+      "region": "grid",
+      "severity": "medium",
+      "pillar": "Acquisition"
+    },
+    {
+      "id": "vf-gingins-no-sampler",
+      "observation": "GIN GINS category presents many flavors with no multi-flavor sampler or trial entry point.",
+      "screenshot_ref": "page-gin-gins/screenshots/page-gin-gins-fullpage.png",
+      "region": "grid",
+      "severity": "medium",
+      "pillar": "AOV"
+    },
+    {
+      "id": "vf-rescue-no-bundle",
+      "observation": "Ginger Rescue formats are shown separately; no travel/motion-sickness kit bundles the lozenge + tablet formats.",
+      "screenshot_ref": "pdp-ginger-rescue-hard-ginger-lozenges/screenshots/pdp-ginger-rescue-hard-ginger-lozenges-fullpage.png",
+      "region": "grid",
+      "severity": "medium",
+      "pillar": "AOV"
+    },
+    {
+      "id": "vf-glp1-no-routine",
+      "observation": "GLP-1 article educates (nausea affects up to 50% of GLP-1 patients) but offers no packaged, reorderable ginger+turmeric routine.",
+      "screenshot_ref": "page-boost-your-glp-1-naturally-the-power-of-/screenshots/page-boost-your-glp-1-naturally-the-power-of--fullpage.png",
+      "region": "article-body",
+      "severity": "medium",
+      "pillar": "Retention"
+    },
+    {
+      "id": "vf-pdp-no-reorder",
+      "observation": "Consumable PDP has no 'add to routine' / reorder-reminder path for repeat usage.",
+      "screenshot_ref": "pdp-gin-gins-original-ginger-chews/screenshots/pdp-gin-gins-original-ginger-chews-fullpage.png",
+      "region": "buy-box",
+      "severity": "medium",
+      "pillar": "Retention"
+    },
+    {
+      "id": "vf-glp1-health-pattern",
+      "observation": "Health-content layout (education + formats) exists and could anchor condition landing pages like morning sickness.",
+      "screenshot_ref": "page-boost-your-glp-1-naturally-the-power-of-/screenshots/page-boost-your-glp-1-naturally-the-power-of--fullpage.png",
+      "region": "article-body",
+      "severity": "low",
+      "pillar": "Acquisition"
+    }
+  ]
+}

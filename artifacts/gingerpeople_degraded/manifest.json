@@ -1,0 +1,69 @@
+{
+  "store": "gingerpeople",
+  "crawled_at": "2026-06-12T09:25:44.425804+00:00",
+  "surfaces": [
+    {
+      "id": "home",
+      "type": "homepage",
+      "url": "https://gingerpeople.com/",
+      "status": 200,
+      "page_json": "home/page.json"
+    },
+    {
+      "id": "page-the-ginger-people-products",
+      "type": "other",
+      "url": "https://gingerpeople.com/the-ginger-people-products/",
+      "status": 200,
+      "page_json": "page-the-ginger-people-products/page.json"
+    },
+    {
+      "id": "page-gin-gins",
+      "type": "other",
+      "url": "https://gingerpeople.com/gin-gins/",
+      "status": 200,
+      "page_json": "page-gin-gins/page.json"
+    },
+    {
+      "id": "pdp-gin-gins-original-ginger-chews",
+      "type": "product",
+      "url": "https://gingerpeople.com/products/gin-gins-original-ginger-chews/",
+      "status": 200,
+      "page_json": "pdp-gin-gins-original-ginger-chews/page.json"
+    },
+    {
+      "id": "pdp-ginger-rescue-hard-ginger-lozenges",
+      "type": "product",
+      "url": "https://gingerpeople.com/products/ginger-rescue-hard-ginger-lozenges/",
+      "status": 200,
+      "page_json": "pdp-ginger-rescue-hard-ginger-lozenges/page.json"
+    },
+    {
+      "id": "cart",
+      "type": "cart",
+      "url": "https://gingerpeople.com/cart",
+      "status": 404,
+      "page_json": "cart/page.json"
+    },
+    {
+      "id": "page-where-to-buy-the-ginger-people-products",
+      "type": "other",
+      "url": "https://gingerpeople.com/where-to-buy-the-ginger-people-products/",
+      "status": 200,
+      "page_json": "page-where-to-buy-the-ginger-people-products/page.json"
+    },
+    {
+      "id": "page-health-blog",
+      "type": "other",
+      "url": "https://gingerpeople.com/health-blog/",
+      "status": 200,
+      "page_json": "page-health-blog/page.json"
+    },
+    {
+      "id": "page-boost-your-glp-1-naturally-the-power-of-",
+      "type": "other",
+      "url": "https://gingerpeople.com/boost-your-glp-1-naturally-the-power-of-ginger-turmeric/",
+      "status": 200,
+      "page_json": "page-boost-your-glp-1-naturally-the-power-of-/page.json"
+    }
+  ]
+}
