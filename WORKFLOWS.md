@@ -2,14 +2,10 @@
 
 How I work with coding agents day-to-day. (Not about this take-home — though it's a representative sample.)
 
-> Personalize the **Tool stack** line and any specifics below to your actual setup before submitting.
-
 ## Tool stack
 
 - **Primary drivers:** Claude Code and Codex, often **run in parallel** on the same repo against a shared contract.
-- **Browser/automation:** Playwright (MCP for interactive discovery; a deterministic script for capture).
 - **Verification:** schema validators + small self-check oracles I write alongside the artifacts, plus the test runner the project already uses.
-- *(Add your editor, model defaults, and any MCP servers you run: e.g. filesystem, web search, a DB/API MCP, etc.)*
 
 ## Delegation patterns — what I let agents drive vs. always take the wheel on
 
