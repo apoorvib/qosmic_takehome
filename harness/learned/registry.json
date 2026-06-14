@@ -1,0 +1,24 @@
+{
+  "_note": "Active learned rules promoted by self_learn.py. DATA only — no executable code. Each rule is interpreted by a vetted rule-type function in harness/scripts/learned_checks.py. Each entry is added by its own gated, revertible git commit.",
+  "rules": [
+    {
+      "id": "generic_recommendation",
+      "type": "generic_phrasing",
+      "patterns": [
+        "urgency timer",
+        "countdown timer",
+        "exit-intent popup",
+        "exit intent popup",
+        "low-stock badge",
+        "low stock badge",
+        "social proof badge",
+        "scarcity banner",
+        "flash sale",
+        "fomo"
+      ],
+      "severity": "warn",
+      "detail": "generic CRO tactic without store-specific grounding (promoted from 5 recurring judge findings)",
+      "added_by": "self_learn"
+    }
+  ]
+}
